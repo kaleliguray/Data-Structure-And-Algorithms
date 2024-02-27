@@ -22,7 +22,7 @@ You should know basic coding in Java language.
 ### Installation 
 
 <ol type="1">
-  <li>Clone the repository: git clone https://github.com/kaleliguray/Data-Structures-And-Algorithms.git</li>
+  <li>Clone the repository: git clone https://github.com/kaleliguray/Data-Structure-And-Algorithms.git</li>
   <li>Navigate to the project folder: cd your-repo</li>
   <li>Install dependencies: npm install or pip install -r requirements.txt</li>
 </ol>
