@@ -1,6 +1,6 @@
 package src.mathematic;
 
-public class reverseArray {
+public class ReverseArray {
 
     public static void printArray(int[] arr){
 
