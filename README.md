@@ -2,28 +2,28 @@
 
 This project is trying to show examples of the lecture on data structure and algorithms during the master's education at Munich Technical University.
 
-📝 ## Table of Contents 
+## Table of Contents 
 - [Getting Started](#getting-started)
-  - [Prerequisites](##prerequisites--)
+  - [Prerequisites](##prerequisites)
   - [Installation](#installation)
 - [Analysis of Algorithms](#analysis-of-algorithms)
   - [Time Complexity](#time-complexity)
   - [Space (Memory) Complexity](#space-memory-complexity)
 - [Asymptotic Analysis of An Algorithm](#asymptotic-analysis-of-an-algorithm)
   - [Asymptotic Notations](#asymptotic-notations)
-    - [Omega Notation](##omega-notation--)
-    - [Big O Notation](##big-o-notation--)
-    - [Theta Notation](##theta-notation--)
+    - [Omega Notation](##omega-notation)
+    - [Big O Notation](##big-o-notation)
+    - [Theta Notation](##theta-notation)
 - [Rules To Calculate Big O Notation](#rules-to-calculate-big-o-notation)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
 
-🏁 ## Getting Started 🏁
+## Getting Started 
 
 You should know basic coding in Java language.
 
-🎒 ### Prerequisites 
+### Prerequisites 
 
 - For IDEA: Intellij IDEA or Eclipse
 - Language: Java
@@ -116,7 +116,7 @@ These rules help simplify the expression and provide a clearer understanding of 
 
 You can clone the repository and download your local to work on it. If you want to provide more examples or if you detected any mistake on the example, please, review and correct then notify me with a commit request.
 
-🪪 ## License 
+## License 
 
 MIT 
 
