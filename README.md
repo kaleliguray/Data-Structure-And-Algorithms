@@ -2,7 +2,7 @@
 
 This project is trying to show examples of the lecture on data structure and algorithms during the master's education at Munich Technical University.
 
-## Table of Contents 📝
+📝 ## Table of Contents 
 - [Getting Started](#getting-started)
   - [Prerequisites](##prerequisites--)
   - [Installation](#installation)
@@ -19,11 +19,11 @@ This project is trying to show examples of the lecture on data structure and alg
 - [License](#license)
 - [Resources](#resources)
 
-## Getting Started 🏁
+🏁 ## Getting Started 🏁
 
 You should know basic coding in Java language.
 
-### Prerequisites 🎒
+🎒 ### Prerequisites 
 
 - For IDEA: Intellij IDEA or Eclipse
 - Language: Java
@@ -116,7 +116,7 @@ These rules help simplify the expression and provide a clearer understanding of 
 
 You can clone the repository and download your local to work on it. If you want to provide more examples or if you detected any mistake on the example, please, review and correct then notify me with a commit request.
 
-## License 🪪
+🪪 ## License 
 
 MIT 
 
