@@ -11,9 +11,9 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Space (Memory) Complexity](#space-memory-complexity)
 - [Asymptotic Analysis of An Algorithm](#asymptotic-analysis-of-an-algorithm)
   - [Asymptotic Notations](#asymptotic-notations)
-    - [Omega Notation (Ω)](#omega-notation)
-    - [Big O Notation (O)](#big-o-notation)
-    - [Theta Notation (θ)](#theta-notation)
+    - [Omega Notation](#omega-notation)
+    - [Big O Notation](#big-o-notation)
+    - [Theta Notation](#theta-notation)
 - [Rules To Calculate Big O Notation](#rules-to-calculate-big-o-notation)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
@@ -82,7 +82,7 @@ You should know basic coding in Java language.
 * It provides a more balanced view by determining the average amount of time an algorithm may take to complete.
 * This notation is helpful for a more comprehensive analysis of an algorithm's efficiency.
 
-## Rules To Calcuate Big O Notation
+## Rules To Calculate Big O Notation
 - Single Processor: The analysis assumes a single processor for computation.
 - Sequential Execution: The algorithm performs sequential execution of statements.
 - Assignment Operation: Each assignment operation takes 1 unit of time.
