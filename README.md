@@ -122,5 +122,5 @@ MIT
 
 ## Resources
 
-* Books: Data Structures and Algorithms in Java Book by Michael T. Goodrich and Roberto Tamassia
+* Books: Data Structures and Algorithms in Java Sixth Edition by Michael T. Goodrich and Roberto Tamassia 
 * YouTube: Data Structures and Algorithms with Visualizations – Full Course (Java) (<a href="https://www.youtube.com/watch?v=2ZLl8GAk1X4&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&start_radio=1">link</a>)
