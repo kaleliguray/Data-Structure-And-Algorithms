@@ -20,7 +20,7 @@ public class MoveZeros {
      * 4. using 2. If condition to control our value following the zero value in the array
      * whether it is equal to zero or not and then increment it to 1
      * 5.return array valuables
-     * @param arr
+     *
      */
 
     public static void moveZeros(int[] arr){
@@ -50,6 +50,7 @@ public class MoveZeros {
         moveZeros(example_array);
 
         printArray(example_array);
+
 
     }
 
