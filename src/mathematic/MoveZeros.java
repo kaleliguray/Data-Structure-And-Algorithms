@@ -43,7 +43,7 @@ public class MoveZeros {
 
     public static void main(String[] args) {
 
-        int[] example_array = {3, 5, 0, 7, 1, 0, 2, 0, 9, 0, 4, 6};
+        int[] example_array = {3, 5, 0, 7, 1, 0, 2, 0, 9, 4, 0, 6};
 
         printArray(example_array);
 
