@@ -51,7 +51,6 @@ public class FindSecondMax {
 
         System.out.println("Secon Max Value: " + second_max_value);
 
-
     }
 
 
