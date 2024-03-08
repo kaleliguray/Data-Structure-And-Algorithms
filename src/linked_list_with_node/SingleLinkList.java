@@ -11,6 +11,36 @@ package src.linked_list_with_node;
 
 public class SingleLinkList {
 
+    public static void display(ListNode node){
+
+        ListNode current = node.head;
+
+        while (current != null){
+
+            System.out.print(current.data + " --> ");
+            current = current.next;
+        }
+        System.out.println("null");
+
+    }
+
+    public static int lenght(ListNode node){
+
+        int count = 0;
+        ListNode current = node.head;
+
+        if (current.head == null){
+            System.out.println("List lenght : " + count);
+        }
+
+        while (current != null){
+            count++;
+            current = current.next;
+        }
+
+        return count;
+    }
+
     public static void main(String[] args) {
 
         ListNode node_1 = new ListNode(10);
@@ -35,6 +65,29 @@ public class SingleLinkList {
             current = current.next;
         }
         System.out.print("null");
+
+        System.out.println("\nThis is the method for printing the values");
+        display(node_1.head);
+
+        System.out.println();
+
+        // here, we will get the length of the node
+        int count = 0;
+        current = node_1.head;  // we should locate the current node at the beginning again
+
+        if (current.head == null){
+            System.out.println("List lenght : " + count);
+        }
+
+        while (current != null){
+                count++;
+                current = current.next;
+            }
+        System.out.print("List  length: " + count);
+
+        // Also we can learn the length of list with this method
+        System.out.println("\nThis is the method shows the length of the list: "+ lenght(node_1.head));
+//      System.out.println("\nList of length: " + lenght(node_1.head));
 
     }
 
