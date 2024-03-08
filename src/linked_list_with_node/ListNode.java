@@ -1,4 +1,4 @@
-package src.linklist_with_node;
+package src.linked_list_with_node;
 
 /**
  * In this class, we will create a list nodes
