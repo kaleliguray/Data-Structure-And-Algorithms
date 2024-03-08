@@ -38,6 +38,8 @@ public class MissingNumberInArray {
             }
         }
 
+        System.out.println("Array's values are between " + min + " and " + max);
+
         // array's values are between min and max, therefore we get max as n
         int total = (max * (max+1)) / 2;
 
@@ -55,7 +57,7 @@ public class MissingNumberInArray {
 
     public static void main(String[] args) {
 
-        int[] example = {2, 4, 6, 3, 7, 1, 8};
+        int[] example = {0, 2, 4, 6, 3, 7, 1, 8};
 
         System.out.println("Existing array values");
         print(example);
