@@ -64,15 +64,20 @@ public class SingleLinkList {
         System.out.println("\n**********************************************\n");
         System.out.println("This method add a value to the beginning of the linked list");
         ListNode new_node = new ListNode();
-        new_node.add(23);
-        new_node.add(8);
-        new_node.add(1);
-        new_node.add(10);
+        new_node.add_beginning(23);
+        new_node.add_beginning(8);
+        new_node.add_beginning(1);
+        new_node.add_beginning(10);
         new_node.display(new_node);
 
-
-
-
+        System.out.println("\n**********************************************\n");
+        System.out.println("This method add a value to the end of the linked list");
+        ListNode end_node = new ListNode();
+        end_node.add_end(23);
+        end_node.add_end(8);
+        end_node.add_end(1);
+        end_node.add_end(10);
+        end_node.display(end_node);
 
 
     }

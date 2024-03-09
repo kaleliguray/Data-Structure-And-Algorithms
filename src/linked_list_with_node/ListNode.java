@@ -54,10 +54,33 @@ public class ListNode {
     }
 
     //This method adds a new element to the beginning of the linked list
-    public void add(int value){
+    public void add_beginning(int value){
         ListNode new_node = new ListNode(value);
         new_node.next = this.head;
         this.head = new_node;
     }
+
+    //This method adds a new element to the end of the linked list
+    public void add_end(int value){
+
+        ListNode new_node = new ListNode(value);
+
+        if (this.head == null){
+            this.head = new_node;
+            return;
+        }
+
+        ListNode current = this.head;
+
+        while ( current.next !=  null){
+
+            current = current.next;
+        }
+        current.next = new_node;
+
+    }
+
+
+
 
 }
