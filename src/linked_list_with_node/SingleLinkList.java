@@ -11,19 +11,8 @@ package src.linked_list_with_node;
 
 public class SingleLinkList {
 
-    public static void display(ListNode node){
 
-        ListNode current = node.head;
-
-        while (current != null){
-
-            System.out.print(current.data + " --> ");
-            current = current.next;
-        }
-        System.out.println("null");
-
-    }
-
+   /* // This method gives us the length of the linked list or how many elements the linked list includes
     public static int lenght(ListNode node){
 
         int count = 0;
@@ -39,7 +28,9 @@ public class SingleLinkList {
         }
 
         return count;
-    }
+    }*/
+
+
 
     public static void main(String[] args) {
 
@@ -56,38 +47,33 @@ public class SingleLinkList {
         node_3.next = node_4; // 10 --> 1 --> 8 --> 23 --> null & node_4.next --> null (end of the linkedlist)
 
         // Now!!! printing these value
+        node_1.display(node_1.head);
 
         ListNode current = node_1.head;
 
-        while (current != null){ // checking list is empty or are we at the end of the list
-
-            System.out.print(current.data + " --> ");
-            current = current.next;
-        }
-        System.out.print("null");
+        System.out.println("\n**********************************************");
 
         System.out.println("\nThis is the method for printing the values");
-        display(node_1.head);
+        current.display(current);
 
-        System.out.println();
-
-        // here, we will get the length of the node
-        int count = 0;
-        current = node_1.head;  // we should locate the current node at the beginning again
-
-        if (current.head == null){
-            System.out.println("List lenght : " + count);
-        }
-
-        while (current != null){
-                count++;
-                current = current.next;
-            }
-        System.out.print("List  length: " + count);
+        System.out.println("\n**********************************************");
 
         // Also we can learn the length of list with this method
-        System.out.println("\nThis is the method shows the length of the list: "+ lenght(node_1.head));
-//      System.out.println("\nList of length: " + lenght(node_1.head));
+        System.out.println("\nThis is the method shows the length of the list: "+ current.lenght(node_1.head));
+
+        System.out.println("\n**********************************************\n");
+        System.out.println("This method add a value to the beginning of the linked list");
+        ListNode new_node = new ListNode();
+        new_node.add(23);
+        new_node.add(8);
+        new_node.add(1);
+        new_node.add(10);
+        new_node.display(new_node);
+
+
+
+
+
 
     }
 
