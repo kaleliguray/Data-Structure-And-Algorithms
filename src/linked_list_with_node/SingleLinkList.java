@@ -77,6 +77,7 @@ public class SingleLinkList {
         end_node.add_end(8);
         end_node.add_end(1);
         end_node.add_end(10);
+        end_node.add_end(7);
         end_node.display(end_node);
 
 
