@@ -80,6 +80,62 @@ public class ListNode {
 
     }
 
+    //This method adds a new element to the linked list where given a specific position
+    public void insert(int position, int value){
+
+        ListNode new_node = new ListNode(value);
+
+        if (position == 1){ // this means we want to add the value beginning of the list
+
+            new_node.next = head;
+            head = new_node;
+
+        }else {     // here we want to add the value at the end or at the position given
+
+            ListNode previous = head;
+            int count = 1;  // it counts until reaching the position
+
+            while (count < position-1){
+
+                previous = previous.next;
+                count++;
+
+            }
+
+            ListNode current = previous.next;
+            previous.next = new_node;
+            new_node.next = current;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

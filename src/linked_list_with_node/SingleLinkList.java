@@ -12,26 +12,6 @@ package src.linked_list_with_node;
 public class SingleLinkList {
 
 
-   /* // This method gives us the length of the linked list or how many elements the linked list includes
-    public static int lenght(ListNode node){
-
-        int count = 0;
-        ListNode current = node.head;
-
-        if (current.head == null){
-            System.out.println("List lenght : " + count);
-        }
-
-        while (current != null){
-            count++;
-            current = current.next;
-        }
-
-        return count;
-    }*/
-
-
-
     public static void main(String[] args) {
 
         ListNode node_1 = new ListNode(10);
@@ -59,7 +39,8 @@ public class SingleLinkList {
         System.out.println("\n**********************************************");
 
         // Also we can learn the length of list with this method
-        System.out.println("\nThis is the method shows the length of the list: "+ current.lenght(node_1.head));
+        current.display(current);
+        System.out.println("\nThis is the method shows the length of the list: "+ current.lenght(current));
 
         System.out.println("\n**********************************************\n");
         System.out.println("This method add a value to the beginning of the linked list");
@@ -79,6 +60,33 @@ public class SingleLinkList {
         end_node.add_end(10);
         end_node.add_end(7);
         end_node.display(end_node);
+
+        System.out.println("\n**********************************************\n");
+        System.out.println("This method inserts a value to a given position in the linked list");
+
+        ListNode insert_node = new ListNode();
+        insert_node.add_beginning(23);
+        insert_node.add_beginning(8);
+        insert_node.add_beginning(1);
+        insert_node.add_beginning(10);
+
+        insert_node.display(insert_node);
+
+        insert_node.insert(3, 5);
+        insert_node.display(insert_node);
+
+        insert_node.insert(1, 2);
+        insert_node.display(insert_node);
+
+
+        insert_node.insert(7, 7);
+        insert_node.display(insert_node);
+
+        System.out.println("\nThe length of the list: "+ insert_node.lenght(insert_node));
+
+
+
+
 
 
     }
