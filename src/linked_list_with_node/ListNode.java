@@ -123,7 +123,19 @@ public class ListNode {
 
     }
 
+    //This method delete the first element from the linked list
+    public ListNode delete(){
 
+        if(head == null){
+            return null;
+        }
+
+        ListNode temporary = head;
+        head = head.next;
+        temporary.next = null;
+
+        return temporary;
+    }
 
 
 

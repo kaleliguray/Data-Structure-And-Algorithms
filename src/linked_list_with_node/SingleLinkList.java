@@ -84,7 +84,25 @@ public class SingleLinkList {
 
         System.out.println("\nThe length of the list: "+ insert_node.lenght(insert_node));
 
+        System.out.println("**********************************************\n");
+        System.out.println("This method deletes the first value in the linked list");
 
+        ListNode delete_item = new ListNode();
+        delete_item.add_beginning(23);
+        delete_item.add_beginning(8);
+        delete_item.add_beginning(1);
+        delete_item.add_beginning(10);
+
+        delete_item.display(delete_item);
+        System.out.println("Deleted item: " + delete_item.delete().data);
+        delete_item.display(delete_item);
+        System.out.println("Deleted item: " + delete_item.delete().data);
+        delete_item.display(delete_item);
+        System.out.println("Deleted item: " + delete_item.delete().data);
+        delete_item.display(delete_item);
+        System.out.println("Deleted item: " + delete_item.delete().data);
+        delete_item.display(delete_item);
+        
 
 
 
