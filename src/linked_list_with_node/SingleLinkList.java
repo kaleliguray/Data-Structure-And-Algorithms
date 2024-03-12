@@ -102,8 +102,24 @@ public class SingleLinkList {
         delete_item.display(delete_item);
         System.out.println("Deleted item: " + delete_item.delete().data);
         delete_item.display(delete_item);
-        
 
+        System.out.println("**********************************************\n");
+        System.out.println("This method deletes the last value in the linked list");
+
+        ListNode last_item = new ListNode();
+        last_item.add_beginning(23);
+        last_item.add_beginning(8);
+        last_item.add_beginning(1);
+        last_item.add_beginning(10);
+
+        last_item.display(last_item);
+
+        last_item.delete_last();
+        last_item.display(last_item);
+        last_item.delete_last();
+        last_item.display(last_item);
+        last_item.delete_last();
+        last_item.display(last_item);
 
 
 
