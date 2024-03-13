@@ -80,7 +80,7 @@ public class ListNode {
 
     }
 
-    //This method adds a new element to the linked list where given a specific position
+    //This method adds a new element from the linked list where given a specific position
     public void insert(int position, int value){
 
         ListNode new_node = new ListNode(value);
@@ -158,8 +158,29 @@ public class ListNode {
         return current;
     }
 
+    //This method delete an element from the linked list where given a specific position
+    public void delete_position(int position){
+
+        if (position == 1){
+            head = head.next;
+        }else {
+
+            ListNode previous = head;
+            int count = 1;
+
+            while (count < position - 1){
+                previous = previous.next;
+                count++;
+            }
+
+            ListNode current = previous.next;
+            previous.next = current.next;
+        }
 
 
+
+
+    }
 
 
 

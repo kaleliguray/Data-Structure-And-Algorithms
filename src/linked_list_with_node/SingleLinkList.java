@@ -121,6 +121,26 @@ public class SingleLinkList {
         last_item.delete_last();
         last_item.display(last_item);
 
+        System.out.println("**********************************************\n");
+        System.out.println("This method delete an element from the linked list where given a specific position");
+
+        ListNode example = new ListNode();
+        example.add_beginning(23);
+        example.add_beginning(8);
+        example.add_beginning(1);
+        example.add_beginning(10);
+
+        example.display(example);
+
+        example.delete_position(1);
+        example.display(example);
+        example.delete_position(2);
+        example.display(example);
+
+
+
+
+
 
 
     }
