@@ -182,8 +182,25 @@ public class ListNode {
 
     }
 
+    //This method find an element from the linked list where given a specific position
+    public boolean find_element (int search_key){
 
+        ListNode current = head;
+        int position = 0;
 
+        while (current != null){
+
+            position++;
+            if (current.data == search_key){
+                System.out.println(search_key + " element is at the " + position + " position");
+                return true;
+            }
+
+            current = current.next;
+        }
+        System.out.println(search_key + " element is not in the list");
+        return false;
+    }
 
 
 

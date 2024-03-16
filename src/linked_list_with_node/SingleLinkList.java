@@ -137,11 +137,21 @@ public class SingleLinkList {
         example.delete_position(2);
         example.display(example);
 
+        System.out.println("**********************************************\n");
+        System.out.println("This method find an element from the linked list where given a specific position");
 
+        ListNode simple = new ListNode();
+        simple.add_beginning(23);
+        simple.add_beginning(8);
+        simple.add_beginning(1);
+        simple.add_beginning(10);
 
+        simple.display(simple);
 
-
-
+        simple.find_element(8);
+        simple.find_element(23);
+        simple.find_element(10);
+        simple.find_element(1);
 
     }
 
