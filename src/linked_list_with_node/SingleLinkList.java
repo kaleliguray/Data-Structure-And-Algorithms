@@ -148,10 +148,10 @@ public class SingleLinkList {
 
         simple.display(simple);
 
-        simple.find_element(8);
-        simple.find_element(23);
-        simple.find_element(10);
-        simple.find_element(1);
+        simple.find_element(8, simple.head);
+        simple.find_element(23, simple.head);
+        simple.find_element(10, simple.head);
+        simple.find_element(1, simple.head);
 
     }
 

@@ -183,7 +183,12 @@ public class ListNode {
     }
 
     //This method find an element from the linked list where given a specific position
-    public boolean find_element (int search_key){
+    public boolean find_element (int search_key, ListNode head){
+
+        if (head == null){
+            System.out.println("List is empty");
+            return false;
+        }
 
         ListNode current = head;
         int position = 0;
