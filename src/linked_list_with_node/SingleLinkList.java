@@ -153,6 +153,20 @@ public class SingleLinkList {
         simple.find_element(10, simple.head);
         simple.find_element(1, simple.head);
 
+        System.out.println("**********************************************\n");
+        System.out.println("This method reverses elements in the linked list");
+
+        ListNode reverse_example = new ListNode();
+        reverse_example.add_end(23);
+        reverse_example.add_end(8);
+        reverse_example.add_end(1);
+        reverse_example.add_end(10);
+
+        reverse_example.display(reverse_example);
+
+        ListNode a = reverse_example.reverse(reverse_example);
+
+        a.display(a);
     }
 
 

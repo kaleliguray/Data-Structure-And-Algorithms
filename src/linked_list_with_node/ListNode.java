@@ -24,6 +24,11 @@ public class ListNode {
     // This method returns every element in the list and print
     public void display(ListNode node){
 
+        if (node.head == null) {
+            System.out.println("List is empty");
+            return;
+        }
+
         ListNode current = node.head;
 
         while (current != null){    // checking list is empty or are we at the end of the list
@@ -207,7 +212,28 @@ public class ListNode {
         return false;
     }
 
+    //This method reverses elements in the linked list
+    public ListNode reverse(ListNode node){
 
+        if (node.head == null){
+            return node.head;
+        }
+
+        ListNode current = node.head;
+        ListNode previous = null;
+        ListNode next = null;
+        ListNode reverse = new ListNode();
+
+        while (current != null){
+            next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+            reverse.add_beginning(previous.data);
+        }
+
+        return reverse;
+    }
 
 
 
