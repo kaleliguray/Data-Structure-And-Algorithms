@@ -287,7 +287,28 @@ public class ListNode {
 
     }
 
+    //This method inserts an element in the sorted list
+    public ListNode insert_element_toSortList(int value){
 
+        ListNode new_node = new ListNode(value);
+
+        if (head == null){
+            return new_node;
+        }
+
+        ListNode current = head;
+        ListNode temporary = null;
+
+        while (current != null && current.data < new_node.data){
+            temporary = current;
+            current = current.next;
+        }
+
+        new_node.next = current;
+        temporary.next = new_node;
+
+        return head;
+    }
 
 
 

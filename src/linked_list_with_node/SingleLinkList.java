@@ -206,10 +206,18 @@ public class SingleLinkList {
 
         dublicate.display(dublicate);
 
+        System.out.println("**********************************************\n");
+        System.out.println("This method inserts an element in the sorted list");
 
+        // we will use the above list(update list) for this example
+        dublicate.display(dublicate);
 
+        // firstly we will delete a value and then add it again by using insert_element_toSortList method
+        dublicate.delete_position(3);
+        dublicate.display(dublicate);
 
-
+        dublicate.insert_element_toSortList(3);
+        dublicate.display(dublicate);
 
 
 
