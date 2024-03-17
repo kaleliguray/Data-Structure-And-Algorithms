@@ -235,6 +235,50 @@ public class ListNode {
         return reverse;
     }
 
+    //This method gets an element that is given a position at the end of the list
+    public ListNode get_end_element(int position){
+
+        if (head == null){
+            return null;
+        }
+
+        if (position < 0){
+            throw new IllegalArgumentException("Invalid position: "+position);
+        }
+
+        ListNode mainPointer = head;
+        ListNode referencePointer = head;
+        int count = 0;
+
+        while (count < position){
+            referencePointer = referencePointer.next;
+            count++;
+        }
+
+        while (referencePointer != null){
+            referencePointer = referencePointer.next;
+            mainPointer = mainPointer.next;
+        }
+
+        return mainPointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

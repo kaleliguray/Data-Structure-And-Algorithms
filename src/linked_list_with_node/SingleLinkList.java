@@ -167,6 +167,37 @@ public class SingleLinkList {
         ListNode a = reverse_example.reverse(reverse_example);
 
         a.display(a);
+
+        System.out.println("**********************************************\n");
+        System.out.println("This method gets an element that is given a position at the end of the list");
+
+        // we will use a (above example) list in here
+        a.insert(2, 11);
+        a.insert(4, 15);
+        a.display(a);
+
+
+        ListNode position_node = a.get_end_element(2);
+        System.out.println("The value from the end of the list in the given position: " + position_node.data);
+
+        position_node = a.get_end_element(1);
+        System.out.println("The value from the end of the list in the given position: " + position_node.data);
+
+        position_node = a.get_end_element(5);
+        System.out.println("The value from the end of the list in the given position: " + position_node.data);
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 
