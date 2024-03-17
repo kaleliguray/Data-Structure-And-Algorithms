@@ -219,8 +219,15 @@ public class SingleLinkList {
         dublicate.insert_element_toSortList(3);
         dublicate.display(dublicate);
 
+        System.out.println("**********************************************\n");
+        System.out.println("This method deletes an element that is given from the list");
 
+        // we will use the above list(update list) for this example
+        dublicate.display(dublicate);
 
+        dublicate.delete_node(4);
+
+        dublicate.display(dublicate);
 
     }
 

@@ -310,6 +310,35 @@ public class ListNode {
         return head;
     }
 
+    //This method deletes an element that is given from the list
+    public void delete_node(int key){
+
+        ListNode current = head;
+        ListNode temporary = null;
+
+        // If we found the given value at the beginning of the list and delete
+        if (current == null && current.data == key){
+            System.out.println("The value is deleted from the list, and it was detected at the beginning of the list");
+            head = current.next;
+            return;
+        }
+
+        while (current != null && current.data != key){
+            temporary = current;
+            current = current.next;
+        }
+
+        //If we did not find the given value in the list
+        if (current == null){
+            System.out.println("The given value is not in the list");
+            return;
+        }
+
+        temporary.next = current.next;
+
+    }
+
+
 
 
 
