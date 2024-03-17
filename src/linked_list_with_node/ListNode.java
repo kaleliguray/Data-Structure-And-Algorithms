@@ -263,7 +263,29 @@ public class ListNode {
         return mainPointer;
     }
 
+    //This method sorts the duplicate elements out and omits one of them from the list
+    public void dublicate_element(){
 
+        if (head == null){
+            System.out.println("List is empty");
+            return;
+        }
+
+        ListNode current = head;
+
+        while (current != null && current.next != null){
+
+            if (current.data == current.next.data){
+                current.next = current.next.next;
+            }else {
+                current = current.next;
+            }
+
+        }
+
+
+
+    }
 
 
 

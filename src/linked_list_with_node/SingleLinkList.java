@@ -186,9 +186,25 @@ public class SingleLinkList {
         position_node = a.get_end_element(5);
         System.out.println("The value from the end of the list in the given position: " + position_node.data);
 
+        System.out.println("**********************************************\n");
+        System.out.println("This method sorts the duplicate elements out and omits one of them from the list");
 
+        ListNode dublicate = new ListNode();
 
+        dublicate.add_end(1);
+        dublicate.add_end(1);
+        dublicate.add_end(2);
+        dublicate.add_end(3);
+        dublicate.add_end(3);
+        dublicate.add_end(4);
+        dublicate.add_end(5);
+        dublicate.add_end(5);
 
+        dublicate.display(dublicate);
+
+        dublicate.dublicate_element();
+
+        dublicate.display(dublicate);
 
 
 
