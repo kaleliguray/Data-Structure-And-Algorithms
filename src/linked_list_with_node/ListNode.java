@@ -412,20 +412,19 @@ public class ListNode {
 
         return 0;
         }
+    public int getStartingNode(ListNode slowNode){
 
-        public int getStartingNode(ListNode slowNode){
+        ListNode temp = head;
+        int starting_node_value = 0;
+        while (temp != slowNode){
 
-            ListNode temp = head;
-            int starting_node_value = 0;
-            while (temp != slowNode){
-
-                temp = temp.next;
-                slowNode = slowNode.next;
-                starting_node_value = temp.data;
-            }
-
-            return starting_node_value; // starting node of the loop
+            temp = temp.next;
+            slowNode = slowNode.next;
+            starting_node_value = temp.data;
         }
+
+        return starting_node_value; // starting node of the loop
+    }
 
 
 
