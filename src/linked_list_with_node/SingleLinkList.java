@@ -269,9 +269,11 @@ public class SingleLinkList {
 
         //loop.display(loop); // it shows the loop
 
+        System.out.println("**********************************************\n");
+        System.out.println("Floyd's Cycle Detection Algorithms");
 
-
-
+        int start_point = loop.floyd_cycle_detection();
+        System.out.println("The loop beginning point: " + start_point);
 
 
 

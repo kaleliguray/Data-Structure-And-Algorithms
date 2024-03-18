@@ -388,30 +388,44 @@ public class ListNode {
 
     }*/
 
+    /**
+     * Floyd's Cycle Detection Algorithms
+     * It detects whether there is a loop in the link list or not
+     * And then return a value where the loop starts
+     */
 
+    public int floyd_cycle_detection(){
+        ListNode fastNode = head;
+        ListNode slowNode = head;
 
+        while (fastNode != null && fastNode.next != null){
 
+            fastNode = fastNode.next.next;
+            slowNode = slowNode.next;
 
+            if (fastNode == slowNode){
 
+                return getStartingNode(slowNode);
+            }
 
+        }
 
+        return 0;
+        }
 
+        public int getStartingNode(ListNode slowNode){
 
+            ListNode temp = head;
+            int starting_node_value = 0;
+            while (temp != slowNode){
 
+                temp = temp.next;
+                slowNode = slowNode.next;
+                starting_node_value = temp.data;
+            }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+            return starting_node_value; // starting node of the loop
+        }
 
 
 
@@ -422,3 +436,35 @@ public class ListNode {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
