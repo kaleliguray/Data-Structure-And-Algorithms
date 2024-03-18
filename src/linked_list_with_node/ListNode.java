@@ -393,7 +393,6 @@ public class ListNode {
      * It detects whether there is a loop in the link list or not
      * And then return a value where the loop starts
      */
-
     public int floyd_cycle_detection(){
         ListNode fastNode = head;
         ListNode slowNode = head;
@@ -412,6 +411,8 @@ public class ListNode {
 
         return 0;
         }
+
+    // this method is used in the above method (floyd_cycle_detection)
     public int getStartingNode(ListNode slowNode){
 
         ListNode temp = head;
