@@ -229,6 +229,69 @@ public class SingleLinkList {
 
         dublicate.display(dublicate);
 
+        System.out.println("**********************************************\n");
+        System.out.println("This method shows whether the list includes a loop or not");
+
+        // first we will create a many nodes and then link them each other to create a loop and connection
+        ListNode first = new ListNode(1);
+        ListNode second = new ListNode(2);
+        ListNode third = new ListNode(3);
+        ListNode forth = new ListNode(4);
+        ListNode fifth = new ListNode(5);
+        ListNode sixth = new ListNode(6);
+
+        first.next = second;
+        second.next = third;
+        third.next = forth; // we will turn back here after sixth
+        forth.next = fifth;
+        fifth.next = sixth;
+        sixth.next = third; // here is the loop beginning point, we get back to third node again
+
+        System.out.print(first.data + "\t");
+        System.out.print(second.data + "\t");
+        System.out.print(third.data + "\t");
+        System.out.print(forth.data + "\t");
+        System.out.print(fifth.data + "\t");
+        System.out.print(sixth.data + "\t");
+        System.out.print(sixth.next.data + "\t");
+        System.out.print(third.next.data + "\t");
+        System.out.print(forth.next.data + "\t");
+        System.out.print(fifth.next.data + "\n");
+
+        ListNode loop = new ListNode();
+
+        loop.head = first;
+
+        //this create_loop_node method is located in the ListNode class, as well
+        //loop.creat_loop_node();
+
+        loop.contains_loop();
+
+        //loop.display(loop); // it shows the loop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 

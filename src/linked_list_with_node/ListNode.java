@@ -338,6 +338,73 @@ public class ListNode {
 
     }
 
+    //This method shows whether the list includes a loop or not
+    public boolean contains_loop(){
+
+        ListNode fastNode = head;
+        ListNode slowNode = head;
+
+        while (fastNode != null && fastNode.next != null){
+
+            fastNode = fastNode.next.next;
+            slowNode = slowNode.next;
+
+            if (fastNode == slowNode){
+                System.out.println("There is a loop in the list");
+                return true;
+            }
+
+        }
+        System.out.println("There is no loop in the list");
+        return false;
+    }
+
+   /* public void creat_loop_node(){
+        ListNode first = new ListNode(1);
+        ListNode second = new ListNode(2);
+        ListNode third = new ListNode(3);
+        ListNode forth = new ListNode(4);
+        ListNode fifth = new ListNode(5);
+        ListNode sixth = new ListNode(6);
+
+        head = first;
+        first.next = second;
+        second.next = third;
+        third.next = forth; // we will turn back here after sixth
+        forth.next = fifth;
+        fifth.next = sixth;
+        sixth.next = third; // here is the loop beginning point, we get back to third node again
+
+        System.out.print(first.data + "\t");
+        System.out.print(second.data + "\t");
+        System.out.print(third.data + "\t");
+        System.out.print(forth.data + "\t");
+        System.out.print(fifth.data + "\t");
+        System.out.print(sixth.data + "\t");
+        System.out.print(sixth.next.data + "\t");
+        System.out.print(third.next.data + "\t");
+        System.out.print(forth.next.data + "\t");
+        System.out.print(fifth.next.data + "\n");
+
+    }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
