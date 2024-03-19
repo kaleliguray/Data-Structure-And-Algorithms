@@ -286,10 +286,37 @@ public class SingleLinkList {
         loop.contains_loop();
         loop.display(loop);
 
+        System.out.println("\n**********************************************");
+        System.out.println("Merging 2 Lists And Sorting Them\n");
 
+        ListNode first_node = new ListNode();
 
+        first_node.add_end(3);
+        first_node.add_end(5);
+        first_node.add_end(1);
+        first_node.add_end(7);
+        first_node.add_end(9);
 
+        ListNode second_node = new ListNode();
+        second_node.add_end(2);
+        second_node.add_end(6);
+        second_node.add_end(4);
+        second_node.add_end(8);
 
+        System.out.print("First List: ");
+        first_node.display(first_node);
+        System.out.print("\nSecond List: ");
+        second_node.display(second_node);
+
+        System.out.println();
+
+        ListNode merge = new ListNode();
+
+        merge.head = merge.merge_two_lists(first_node.head, second_node.head);
+
+        System.out.println("After merging two lists");
+        merge.sort_list(merge);
+        merge.display(merge);
 
 
 

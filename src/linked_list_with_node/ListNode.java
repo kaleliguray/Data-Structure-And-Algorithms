@@ -461,6 +461,88 @@ public class ListNode {
         slowNode.next = null;
     }
 
+    /**
+     * In here, we will try to merge two different list by using merge method
+     * firstly, we need 2 different list
+     * secondly, create a method name is merge_two_lists and sort_list for sorting elements
+     * thirdly, create a temporary list to merge the values coming from these two lists and put them in order
+     * next, compare the values and then put in the temporary list
+     * finally, return temporary list
+     */
+    public ListNode merge_two_lists(ListNode first, ListNode second){
+
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
+
+        while (first != null && second != null){
+
+            if (first.data < second.data){
+
+                tail.next = first;
+                first = first.next;
+
+            } else {
+
+                tail.next = second;
+                second = second.next;
+
+            }
+
+            tail = tail.next;
+        }
+
+        if (first == null){
+            tail.next = second;
+        }else {
+            tail.next = first;
+        }
+
+        return dummy.next;
+    }
+
+    public void sort_list(ListNode list){
+
+        ListNode current = head;
+        ListNode temp = null;
+
+
+        int value;
+
+        if (head == null){
+
+            System.out.println("List is empty");
+            return;
+
+        } else {
+
+            while (current != null){
+
+                temp = current.next;
+
+                while (temp != null){
+
+                    if (current.data > temp.data){
+
+                        value = current.data;
+                        current.data = temp.data;
+                        temp.data = value;
+
+                    }
+
+                    temp = temp.next;
+                }
+
+                current =current.next;
+            }
+
+        }
+
+    }
+
+
+
+
+
 
 
 
