@@ -115,6 +115,8 @@ These rules help simplify the expression and provide a clearer understanding of 
 
 ## Floyd Cycle Detection Algorithm
 
+You can find the details and the coding version of Floyd's Cycle Detection Algorithm under the src/linked_list_with_node package.
+
 ![Page1](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/ae8e1b39-bb59-4448-8c82-115526000b6c)
 ![Page2](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/1fa6bd94-6c50-4b1a-83a2-8ea86c458f60)
 
