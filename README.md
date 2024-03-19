@@ -116,6 +116,7 @@ These rules help simplify the expression and provide a clearer understanding of 
 ## Floyd Cycle Detection Algorithm
 
 <img src="images/floyd_cycle.png" alt="Floyd Cycle Detection Algorithm">
+![plot](./images/floyd_cycle.png)
 
 ## Usage & Contributing
 
