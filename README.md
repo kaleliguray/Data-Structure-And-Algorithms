@@ -115,7 +115,8 @@ These rules help simplify the expression and provide a clearer understanding of 
 
 ## Floyd Cycle Detection Algorithm
 
-![alt text](./Users/giraykaleli/Downloads/floyd_cycle.png" alt="Floyd's Cycle Detection Algorithm)
+![alt text](./Users/giraykaleli/Downloads/floyd_cycle.png)
+![screenshot](screenshot.png)
 
 ## Usage & Contributing
 
