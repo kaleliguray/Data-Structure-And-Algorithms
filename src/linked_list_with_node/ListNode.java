@@ -427,6 +427,53 @@ public class ListNode {
         return starting_node_value; // starting node of the loop
     }
 
+    /**
+     * In this method, we will firstly detect the starting point
+     * After that, create a deleting method
+     * Finally, remove the loop
+     */
+    public void cycle_detection(){
+        ListNode fastNode = head;
+        ListNode slowNode = head;
+
+        while (fastNode != null && fastNode.next != null){
+
+            fastNode = fastNode.next.next;
+            slowNode = slowNode.next;
+
+            if (fastNode == slowNode){
+
+                remove_loop(slowNode);
+                return;
+            }
+
+        }
+
+    }
+
+    public void remove_loop(ListNode slowNode){
+        ListNode temp = head;
+
+        while (slowNode.next != temp.next){
+            temp = temp.next;
+            slowNode = slowNode.next;
+        }
+        slowNode.next = null;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

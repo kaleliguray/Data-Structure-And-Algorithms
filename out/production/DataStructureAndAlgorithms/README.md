@@ -15,6 +15,7 @@ This project is trying to show examples of the lecture on data structure and alg
     - [Big O Notation](##big-o-notation)
     - [Theta Notation](##theta-notation)
 - [Rules To Calculate Big O Notation](#rules-to-calculate-big-o-notation)
+- [Floyd Cycle Detection Algorithm](#floyd-cycle-detection-algorithm)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -111,6 +112,13 @@ You should know basic coding in Java language.
     Example: If T=3n2+6n+1T=3n2+6n+1, then it is represented as O(n2)O(n2).
 
 These rules help simplify the expression and provide a clearer understanding of the algorithm's time complexity in terms of its growth concerning the input size.
+
+## Floyd Cycle Detection Algorithm
+
+You can find the details and the coding version of Floyd's Cycle Detection Algorithm under the src/linked_list_with_node package.
+
+![Page1](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/ae8e1b39-bb59-4448-8c82-115526000b6c)
+![Page2](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/1fa6bd94-6c50-4b1a-83a2-8ea86c458f60)
 
 ## Usage & Contributing
 
