@@ -539,8 +539,41 @@ public class ListNode {
 
     }
 
+    /**
+     * Adding two list node and get a result as list
+     * first, we will create two list
+     * second, change the list value order from end to beginning
+     * then, sum them up
+     * and return the result as a list
+     */
 
+    public ListNode sum_up(ListNode a, ListNode b){
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
 
+        int carry = 0; // this variable keeps the remaining value which is from summing up two value
+
+        while ( a != null || b != null){
+
+            int x = (a != null) ? a.data : 0;
+            int y = (b != null) ? b.data : 0;
+            int sum = carry + x + y;
+            carry = sum / 10;
+            tail.next = new ListNode(sum%10);
+            tail = tail.next;
+
+            if (a != null)
+                a = a.next;
+            if (b != null)
+                b = b.next;
+
+        }
+
+        if (carry > 0)
+            tail.next = new ListNode(carry);
+
+        return dummy.next;
+    }
 
 
 

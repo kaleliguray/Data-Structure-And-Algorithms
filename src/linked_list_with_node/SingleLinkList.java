@@ -318,12 +318,26 @@ public class SingleLinkList {
         merge.sort_list(merge);
         merge.display(merge);
 
+        System.out.println("\n**********************************************");
+        System.out.println("Sum Up Two Lists\n");
 
+        ListNode x = new ListNode();
 
+        x.add_end(7);
+        x.add_end(4);
+        x.add_end(9);
 
+        ListNode y = new ListNode();
 
+        y.add_end(5);
+        y.add_end(6);
 
+        x.display(x);
+        y.display(y);
 
+        ListNode sum_up = x.sum_up(x, y);
+
+        
 
 
 
