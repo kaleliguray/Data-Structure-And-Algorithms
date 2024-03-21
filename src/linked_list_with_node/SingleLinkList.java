@@ -335,9 +335,11 @@ public class SingleLinkList {
         x.display(x);
         y.display(y);
 
-        ListNode sum_up = x.sum_up(x, y);
+        ListNode sum = new ListNode();
 
+        sum.head = sum.sum_two_list(x, y);
 
+        sum.display(sum);
 
 
 
