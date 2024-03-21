@@ -543,15 +543,15 @@ public class ListNode {
      * Adding two list node and get a result as list
      * first, we will create two list
      * second, change the list value order from end to beginning
-     * then, sum them up
+     * then, sum them
      * and return the result as a list
      */
 
-    public ListNode sum_up(ListNode a, ListNode b){
+    public ListNode sum_two_list(ListNode a, ListNode b){
         ListNode dummy = new ListNode(0);
         ListNode tail = dummy;
 
-        int carry = 0; // this variable keeps the remaining value which is from summing up two value
+        int carry = 0; // this variable keeps the remaining value which is from summing two value
 
         while ( a != null || b != null){
 
