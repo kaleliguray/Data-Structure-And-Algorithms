@@ -339,7 +339,7 @@ public class SingleLinkList {
 
         sum.head = sum.sum_two_list(x, y);
 
-        sum.display(sum);
+        sum.display(sum); //
 
 
 
