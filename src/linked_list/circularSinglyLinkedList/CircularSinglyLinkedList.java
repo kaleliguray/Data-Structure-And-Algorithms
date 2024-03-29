@@ -1,6 +1,8 @@
 package src.linked_list.circularSinglyLinkedList;
 
 
+import java.util.NoSuchElementException;
+
 /**
  * @author giraykaleli
  * @return the loop consists of the singly linked list
@@ -106,6 +108,27 @@ public class CircularSinglyLinkedList {
         length++;
     }
 
+    // this method delete node at the beginning of the circulation singly linked list
+    public ListNode delete_first(){
+
+        if (isEmpty()){
+            throw new NoSuchElementException();
+        }
+
+        ListNode temp = last.next;
+
+        if (last == last.next){
+            last = null;
+        }else {
+            last.next = temp.next;
+        }
+        temp.next = null;
+        length--;
+        return temp;
+    }
+
+
+
     public static void main(String[] args) {
 
         CircularSinglyLinkedList csll = new CircularSinglyLinkedList();
@@ -138,6 +161,19 @@ public class CircularSinglyLinkedList {
         csll.display(csll.last);
         csll.insert_end(21);
         csll.display(csll.last);
+
+        System.out.println("**********************************************");
+        System.out.println("this method delete node at the beginning of the circulation singly linked list\n");
+        csll.display(csll.last);
+
+        csll.delete_first();
+        csll.display(csll.last);
+        csll.delete_first();
+        csll.display(csll.last);
+        csll.delete_first();
+        csll.display(csll.last);
+
+
     }
 
 
