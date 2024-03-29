@@ -69,7 +69,7 @@ public class DoublyLinkedList {
         }
 
     /**
-     * Insert method adds a value to the List
+     * Insert a value at the end of the linked list
       */
     public void insert_end(int value){
         ListNode newNode = new ListNode(value);
