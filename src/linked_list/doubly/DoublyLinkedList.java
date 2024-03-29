@@ -1,5 +1,7 @@
 package src.linked_list.doubly;
 
+import java.util.NoSuchElementException;
+
 public class DoublyLinkedList {
 
     private ListNode head;
@@ -100,9 +102,33 @@ public class DoublyLinkedList {
         newNode.next = head;
         head = newNode;
         length++;
-
-
     }
+
+    /**
+     * delete the list's elements starting from the beginning of it
+     */
+    public ListNode delete_beginning(){
+
+        if (isEmpty()){
+            throw new NoSuchElementException();
+        }
+
+        ListNode temporary = head;
+
+        if (head == tail){
+            tail = null;
+        } else {
+            head.next.previous = null;
+        }
+
+        head = head.next;
+        temporary.next = null;
+        length--;
+
+        return temporary;
+    }
+
+
 
 
 

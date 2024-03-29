@@ -28,7 +28,21 @@ public class Main {
 
         beginning.display_forward();
 
+        System.out.println("\n**********************************************");
+        System.out.println("Delete the list's elements starting from the beginning of it\n");
 
+        DoublyLinkedList delete_first_element = new DoublyLinkedList();
+
+        delete_first_element = beginning; // we assign the previous list's value to our delete_first_element list
+
+        delete_first_element.display_forward();
+
+        delete_first_element.delete_beginning();
+        delete_first_element.display_forward();
+        delete_first_element.delete_beginning();
+        delete_first_element.display_forward();
+        delete_first_element.delete_beginning();
+        delete_first_element.display_forward();
 
 
 
