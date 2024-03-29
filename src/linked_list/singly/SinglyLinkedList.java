@@ -1,4 +1,4 @@
-package src.linked_list_with_node;
+package src.linked_list.singly;
 
 /**
  * In this class, we will get instances from our listNode class
@@ -9,7 +9,7 @@ package src.linked_list_with_node;
  * this exercise shows us how a linked list works
  */
 
-public class SingleLinkList {
+public class SinglyLinkedList {
 
 
     public static void main(String[] args) {
