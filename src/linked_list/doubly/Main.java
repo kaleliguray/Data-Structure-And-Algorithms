@@ -44,13 +44,21 @@ public class Main {
         delete_first_element.delete_beginning();
         delete_first_element.display_forward();
 
+        System.out.println("\n**********************************************");
+        System.out.println("Start to deleting the last element of the list from the end of it\n");
 
+        DoublyLinkedList delete_end = new DoublyLinkedList();
 
+        delete_end = dll; // we assign the previous list's value to our new list
 
+        delete_end.display_forward();
 
-
-
-
+        delete_end.delete_ending();
+        delete_end.display_forward();
+        delete_end.delete_ending();
+        delete_end.display_forward();
+        delete_end.delete_ending();
+        delete_end.display_forward();
 
 
 

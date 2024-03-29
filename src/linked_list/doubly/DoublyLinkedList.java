@@ -128,6 +128,33 @@ public class DoublyLinkedList {
         return temporary;
     }
 
+    /**
+     * start to deleting the last element of the list from the end of it
+     */
+    public ListNode delete_ending(){
+
+        if (isEmpty()){
+            throw new NoSuchElementException();
+        }
+
+        ListNode temporary = tail;
+
+        if (head == tail){
+            head = null;
+        }else {
+            tail.previous.next = null;
+        }
+
+        tail = tail.previous;
+        temporary.previous = null;
+
+        return temporary;
+    }
+
+
+
+
+
 
 
 
