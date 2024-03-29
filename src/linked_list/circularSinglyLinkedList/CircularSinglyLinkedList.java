@@ -1,6 +1,5 @@
 package src.linked_list.circularSinglyLinkedList;
 
-import src.linked_list.singly.ListNode;
 
 /**
  * @author giraykaleli
@@ -52,14 +51,30 @@ public class CircularSinglyLinkedList {
         last = fifth;
 
     }
-    
+
+    public void display(ListNode node){
+
+        if (last == null){
+            System.out.println("List is empty");
+            return;
+        }
+
+        ListNode first = last.next;
+
+        while (first != null){
+            System.out.print(first.data + " --> ");
+            first = first.next;
+        }
+
+        System.out.println(first.data + " ");
+    }
 
     public static void main(String[] args) {
 
         CircularSinglyLinkedList csll = new CircularSinglyLinkedList();
 
         csll.createCircularSinglyLinkedList();
-
+        csll.display(csll.last);
 
     }
 
