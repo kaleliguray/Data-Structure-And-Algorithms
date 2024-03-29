@@ -84,6 +84,40 @@ public class DoublyLinkedList {
         length++;
     }
 
+    /**
+     * Insert a value at the beginning of the linked list
+     */
+    public void insert_beginning(int value){
+
+        ListNode newNode = new ListNode(value);
+
+        if (isEmpty()){
+            tail = newNode;
+        }else {
+            head.previous = newNode;
+        }
+
+        newNode.next = head;
+        head = newNode;
+        length++;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
