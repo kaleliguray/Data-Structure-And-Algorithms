@@ -34,6 +34,7 @@ public class CircularSinglyLinkedList {
         return length == 0;
     }
 
+    // This method creates a loop in the list of elements from the end to the beginning
     public void createCircularSinglyLinkedList(){
 
         ListNode first = new ListNode(1);
@@ -52,6 +53,7 @@ public class CircularSinglyLinkedList {
 
     }
 
+    // this method shows the values of the list
     public void display(ListNode node){
 
         if (last == null){
@@ -61,7 +63,7 @@ public class CircularSinglyLinkedList {
 
         ListNode first = last.next;
 
-        while (first != last){
+        while (first != last){  // while (first != null) ---> show us the values of the list but in a loop
             System.out.print(first.data + " --> ");
             first = first.next;
         }
@@ -69,13 +71,48 @@ public class CircularSinglyLinkedList {
         System.out.println(first.data + " ");
     }
 
+    // this method insert node at the start of the circulation singly linked list
+    public void insert_beginning(int value){
+
+        ListNode temporary = new ListNode(value);
+
+        if (last == null){
+
+            last = temporary;
+
+        }else {
+
+            temporary.next = last.next;
+
+        }
+
+        last.next = temporary;
+        length++;
+    }
+
+
     public static void main(String[] args) {
 
         CircularSinglyLinkedList csll = new CircularSinglyLinkedList();
 
+        System.out.println("**********************************************");
+        System.out.println("the loop consists of the singly linked list\n");
         csll.createCircularSinglyLinkedList();
         csll.display(csll.last);
 
+        System.out.println("\n**********************************************");
+        System.out.println("this method shows the values of the list\n");
+        csll.display(csll.last);
+
+        System.out.println("**********************************************");
+        System.out.println("this method insert node at the start of the circulation singly linked list\n");
+        csll.display(csll.last);
+        csll.insert_beginning(11);
+        csll.display(csll.last);
+        csll.insert_beginning(13);
+        csll.display(csll.last);
+        csll.insert_beginning(15);
+        csll.display(csll.last);
     }
 
 
