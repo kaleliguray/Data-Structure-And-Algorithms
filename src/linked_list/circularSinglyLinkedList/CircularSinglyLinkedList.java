@@ -61,7 +61,7 @@ public class CircularSinglyLinkedList {
 
         ListNode first = last.next;
 
-        while (first != null){
+        while (first != last){
             System.out.print(first.data + " --> ");
             first = first.next;
         }
