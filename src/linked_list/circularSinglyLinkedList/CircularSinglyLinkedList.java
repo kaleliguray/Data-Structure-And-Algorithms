@@ -90,6 +90,21 @@ public class CircularSinglyLinkedList {
         length++;
     }
 
+    // this method insert node at the end of the circulation singly linked list
+    public void insert_end(int value){
+
+        ListNode temporary = new ListNode(value);
+
+        if (last == null){
+            last = temporary;
+            last.next = last;
+        } else {
+            temporary.next = last.next;
+            last.next = temporary;
+            last = temporary;
+        }
+        length++;
+    }
 
     public static void main(String[] args) {
 
@@ -112,6 +127,16 @@ public class CircularSinglyLinkedList {
         csll.insert_beginning(13);
         csll.display(csll.last);
         csll.insert_beginning(15);
+        csll.display(csll.last);
+
+        System.out.println("**********************************************");
+        System.out.println("this method insert node at the end of the circulation singly linked list\n");
+        csll.display(csll.last);
+        csll.insert_end(17);
+        csll.display(csll.last);
+        csll.insert_end(19);
+        csll.display(csll.last);
+        csll.insert_end(21);
         csll.display(csll.last);
     }
 
