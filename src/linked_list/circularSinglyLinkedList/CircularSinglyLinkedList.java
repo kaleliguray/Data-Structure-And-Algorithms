@@ -109,14 +109,14 @@ public class CircularSinglyLinkedList {
     }
 
     // this method delete node at the beginning of the circulation singly linked list
-    public ListNode delete_first(){
+    public int delete_first(){
 
         if (isEmpty()){
             throw new NoSuchElementException();
         }
 
         ListNode temp = last.next;
-
+        int result = temp.data;
         if (last == last.next){
             last = null;
         }else {
@@ -124,7 +124,7 @@ public class CircularSinglyLinkedList {
         }
         temp.next = null;
         length--;
-        return temp;
+        return result;
     }
 
 
@@ -168,9 +168,9 @@ public class CircularSinglyLinkedList {
 
         csll.delete_first();
         csll.display(csll.last);
-        csll.delete_first();
+        System.out.println(csll.delete_first());
         csll.display(csll.last);
-        csll.delete_first();
+        System.out.println(csll.delete_first());
         csll.display(csll.last);
 
 

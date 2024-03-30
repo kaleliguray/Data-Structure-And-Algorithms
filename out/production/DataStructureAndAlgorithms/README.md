@@ -16,6 +16,10 @@ This project is trying to show examples of the lecture on data structure and alg
     - [Theta Notation](##theta-notation)
 - [Rules To Calculate Big O Notation](#rules-to-calculate-big-o-notation)
 - [Floyd Cycle Detection Algorithm](#floyd-cycle-detection-algorithm)
+- [Linked List Node](#linked-list-node)
+  - [Singly LinkedList](#singly-linkedlist)
+  - [Doubled LinkedList](#doubled-linkedlist)
+  - [Circular LinkedList](#circular-linkedlist) 
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -119,6 +123,19 @@ You can find the details and the coding version of Floyd's Cycle Detection Algor
 
 ![Page1](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/ae8e1b39-bb59-4448-8c82-115526000b6c)
 ![Page2](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/1fa6bd94-6c50-4b1a-83a2-8ea86c458f60)
+
+## Linked List Node
+
+### Singly LinkedList
+A singly linked list is a group of nodes, or aggregates of data, where each node is divided into two separate parts for keeping data and addresses at different places. The address of the subsequent node in a list is marked by the next pointer. In contrast to the array data structure, the linked list members' sizes are variable.
+
+### Doubled LinkedList
+We define it as a two-way linked list. In contrast with a single-linked list, we can move through the list by going forward or backward from any particular node. In a single-linked list, removing a node necessitates having a pointer to the node before it. Nevertheless, with a double-linked list, we continue to be allowed to delete a node even in the lack of a pointer to its previous one.
+
+### Circular LinkedList
+The only distinction between it and a singly linked list is that in a circular linked list, the last node points to the first node instead of to null. We observe a last node in the Circular Singly Linked List rather than a head.
+
+![linkedlistnode](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/b17371cc-0f42-4ecc-989e-fea9e6dbee74)
 
 ## Usage & Contributing
 
