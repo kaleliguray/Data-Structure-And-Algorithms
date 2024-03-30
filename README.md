@@ -135,6 +135,8 @@ We define it as a two-way linked list. In contrast with a single-linked list, we
 ### Circular LinkedList
 The only distinction between it and a singly linked list is that in a circular linked list, the last node points to the first node instead of to null. We observe a last node in the Circular Singly Linked List rather than a head.
 
+![linkedlistnode](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/b17371cc-0f42-4ecc-989e-fea9e6dbee74)
+
 ## Usage & Contributing
 
 You can clone the repository and download your local to work on it. If you want to provide more examples or if you detected any mistake on the example, please, review and correct then notify me with a commit request.
