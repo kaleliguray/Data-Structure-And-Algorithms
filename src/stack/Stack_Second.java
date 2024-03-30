@@ -1,5 +1,7 @@
 package src.stack;
 
+import java.util.EmptyStackException;
+
 /**
  * @author giraykaleli
  *
@@ -47,7 +49,72 @@ public class Stack_Second {
         return top < 0;
     }
 
+    public int peek(){
+        if (isEmpty()){
+            throw new RuntimeException("Stack is empty!!");
+        }
 
+        return arr[top];
+    }
+
+    public void display(Stack_Second second){
+        if (isEmpty()){
+            throw new EmptyStackException();
+        }
+
+        int length = size();
+        int[] temp = new int[length];
+        for (int i=0; i<length; i++){
+            temp[i] = second.peek();
+            second.pop();
+            System.out.print(temp[i] + " ---> ");
+        }
+
+        for (int i = temp.length-1; i>=0; i--){
+            second.push(temp[i]);
+        }
+        System.out.println("null");
+
+    }
+
+    public static void main(String[] args) {
+
+
+        Stack_Second second = new Stack_Second(5);
+
+        second.push(1);
+        second.display(second);
+
+        second.push(2);
+        second.display(second);
+
+        second.push(3);
+        second.display(second);
+
+        second.push(4);
+        second.push(5);
+
+        System.out.println("****************************");
+
+        second.display(second);
+
+        System.out.println(second.peek());
+        second.pop();
+        second.display(second);
+
+        System.out.println(second.peek());
+        second.pop();
+        second.display(second);
+
+        System.out.println(second.peek());
+        second.pop();
+        second.display(second);
+
+        System.out.println(second.peek());
+        second.pop();
+        second.display(second);
+
+    }
 
 
 

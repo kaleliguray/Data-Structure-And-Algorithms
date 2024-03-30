@@ -75,14 +75,12 @@ public class Stack {
         }
 
         int length = stack.length;
-        int value;
         int[] temp = new int[length];
 
         for (int i=0; i< length; i++){
-            value = stack.peek();
-            temp[i] = value;
+            temp[i] = stack.peek();
             stack.pop();
-            System.out.print(value + " ---> ");
+            System.out.print(temp[i] + " ---> ");
         }
 
         for (int i=0; i< temp.length; i++){
