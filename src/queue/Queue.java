@@ -88,6 +88,25 @@ public class Queue {
         return result;
     }
 
+    // these methods which are located under this comment, give us the first and the last element in the queue
+    public int first(){
+        if (isEmpty()){
+            throw new NoSuchElementException("The queue is empty");
+        }
+        return front.data;
+    }
+
+    public int last(){
+        if (isEmpty()){
+            throw new NoSuchElementException("The queue is empty");
+        }
+        return rear.data;
+    }
+
+
+
+
+
 
 
 
@@ -95,6 +114,7 @@ public class Queue {
 
         Queue example = new Queue();
 
+        System.out.println("************ Enqueue Method *************");
         example.enqueue(1);
         example.print();
         example.enqueue(5);
@@ -104,11 +124,25 @@ public class Queue {
         example.enqueue(15);
         example.print();
 
-        System.out.println("*************************");
+        System.out.println("******* First & Last Element in the Queue ******************");
+
+        System.out.println("First: " + example.first());
+        System.out.println("Last: " + example.last());
+
+        System.out.println("************ Dequeu Method *************");
 
         example.dequeue();
         example.print();
         example.dequeue();
+        example.print();
+
+        System.out.println("******* After Dequeue Method, First & Last Element in the Queue ******************");
+
+        System.out.println("First: " + example.first());
+        System.out.println("Last: " + example.last());
+
+        System.out.println("Removing every element in the Queue");
+
         example.print();
         example.dequeue();
         example.print();
