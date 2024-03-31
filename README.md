@@ -22,6 +22,8 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Circular LinkedList](#circular-linkedlist)
 - [Stack](#stack)
 - [Queue](#queue)
+- [Tree](#tree)
+  - [Binary Tree](#binary-tree) 
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -150,6 +152,16 @@ A linear data structure called a stack is used to store an ordered, linear seque
 Data is stored in this linear data structure. The list is arranged in an orderly fashion, with deletions occurring at the front and insertions occurring at the rear. The element that is erased is the one that is first added. It is known as the First In First Out (FIFO) list for this reason. When multithreading, queues are usually used to manage threads and implement priority queuing systems.
 
 ![queue](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/858ec472-5c06-408e-bb15-d32de5e1f83e)
+
+## Tree
+
+It is a type of non-linear data structure for information storage. It consists of edges and nodes without a cycle. A tree's nodes can all point to n or more other nodes. With a parent node known as the root and several tiers of child or leaf nodes, it is a means of depicting a hierarchical structure. reflects a data set's structural relationships. gives faster results than an array or linked list for insertion, deletion, and searching. gives data a versatile means to be stored and moved.
+
+### Binary Tree
+
+A tree is called as Binary Tree, if each node has zero, one, or two children
+
+![tree](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/eefb1169-bc0d-487c-a3e3-9e6e3582db5a)
 
 ## Usage & Contributing
 
