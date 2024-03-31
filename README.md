@@ -21,6 +21,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Doubled LinkedList](#doubled-linkedlist)
   - [Circular LinkedList](#circular-linkedlist)
 - [Stack](#stack)
+- [Queue](#queue)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -143,6 +144,12 @@ The only distinction between it and a singly linked list is that in a circular l
 A linear data structure called a stack is used to store an ordered, linear sequence of elements. This form of data is abstract. The Last In First Out (LIFO) technique describes how a stack works; the element that was added last will be taken out first.
 
 ![stack](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/528af40a-9c98-4820-a363-268ead275375)
+
+## Queue
+
+Data is stored in this linear data structure. The list is arranged in an orderly fashion, with deletions occurring at the front and insertions occurring at the rear. The element that is erased is the one that is first added. It is known as the First In First Out (FIFO) list for this reason. When multithreading, queues are usually used to manage threads and implement priority queuing systems.
+
+![queue](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/858ec472-5c06-408e-bb15-d32de5e1f83e)
 
 ## Usage & Contributing
 
