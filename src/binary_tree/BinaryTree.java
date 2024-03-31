@@ -36,7 +36,7 @@ public class BinaryTree {
 
     }
 
-    // travelling amongst the nodes from left to right
+    // traveling amongst the nodes from left to right
     public void preOrder(TreeNode root){
 
         if (root == null){
