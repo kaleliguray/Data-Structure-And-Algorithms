@@ -1,5 +1,7 @@
 package src.queue;
 
+import java.util.NoSuchElementException;
+
 /**
  * @author giraykaleli
  *
@@ -67,6 +69,25 @@ public class Queue {
         System.out.println("null");
     }
 
+    // this method remove an element from the queue
+    public int dequeue(){
+
+        if (isEmpty()){
+            throw new NoSuchElementException("The queue is empty");
+        }
+
+        int result = front.data;
+        front = front.next;
+
+        if (front == null){
+            rear = front;
+        }
+
+        length--;
+
+        return result;
+    }
+
 
 
 
@@ -83,6 +104,14 @@ public class Queue {
         example.enqueue(15);
         example.print();
 
+        System.out.println("*************************");
+
+        example.dequeue();
+        example.print();
+        example.dequeue();
+        example.print();
+        example.dequeue();
+        example.print();
 
 
 
