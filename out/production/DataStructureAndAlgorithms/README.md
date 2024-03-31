@@ -19,7 +19,8 @@ This project is trying to show examples of the lecture on data structure and alg
 - [Linked List Node](#linked-list-node)
   - [Singly LinkedList](#singly-linkedlist)
   - [Doubled LinkedList](#doubled-linkedlist)
-  - [Circular LinkedList](#circular-linkedlist) 
+  - [Circular LinkedList](#circular-linkedlist)
+- [Stack](#stack)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -136,6 +137,12 @@ We define it as a two-way linked list. In contrast with a single-linked list, we
 The only distinction between it and a singly linked list is that in a circular linked list, the last node points to the first node instead of to null. We observe a last node in the Circular Singly Linked List rather than a head.
 
 ![linkedlistnode](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/b17371cc-0f42-4ecc-989e-fea9e6dbee74)
+
+## Stack
+
+A linear data structure called a stack is used to store an ordered, linear sequence of elements. This form of data is abstract. The Last In First Out (LIFO) technique describes how a stack works; the element that was added last will be taken out first.
+
+![stack](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/528af40a-9c98-4820-a363-268ead275375)
 
 ## Usage & Contributing
 
