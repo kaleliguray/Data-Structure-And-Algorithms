@@ -112,6 +112,8 @@ public class Queue {
         example.print();
         example.dequeue();
         example.print();
+        example.dequeue();
+        example.print();
 
 
 
