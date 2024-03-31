@@ -30,8 +30,20 @@ public class Queue {
         return length == 0;
     }
 
+    public void enqueue(int data){
 
-    
+        ListNode temp = new ListNode(data);
+
+        if (isEmpty()){
+            front = rear;
+        } else {
+            rear.next = temp;
+        }
+
+        rear = temp;
+        length++;
+    }
+
 
 
 
