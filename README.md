@@ -142,6 +142,8 @@ The only distinction between it and a singly linked list is that in a circular l
 
 A linear data structure called a stack is used to store an ordered, linear sequence of elements. This form of data is abstract. The Last In First Out (LIFO) technique describes how a stack works; the element that was added last will be taken out first.
 
+![stack](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/528af40a-9c98-4820-a363-268ead275375)
+
 ## Usage & Contributing
 
 You can clone the repository and download your local to work on it. If you want to provide more examples or if you detected any mistake on the example, please, review and correct then notify me with a commit request.
