@@ -3,13 +3,18 @@ package src.queue;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * @author giraykaleli
+ *
+ * We try to represent binary numbers by using queue
+ */
 public class BinaryNumbers {
 
     public static void main(String[] args) {
 
-        int size = 4;
+        int size = 5;
 
-        String[] result = new String[4];
+        String[] result = new String[size];
 
         Queue<String> que = new LinkedList<>();
 
@@ -31,7 +36,7 @@ public class BinaryNumbers {
             System.out.print(str + " ---> ");
 
         }
-        
+
         String binary = "";
         for (String str: result) {
 
