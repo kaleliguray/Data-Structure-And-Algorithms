@@ -1,5 +1,7 @@
 package src.binary_tree;
 
+import java.util.Stack;
+
 /**
  * @author giraykaleli
  */
@@ -38,7 +40,7 @@ public class BinaryTree {
 
     // traveling among the nodes from left to right
     // and also, this method is recursive, calling itself
-    public void preOrder(TreeNode root){
+    public void preOrderRecursive(TreeNode root){
 
         if (root == null){
             return;
@@ -46,9 +48,34 @@ public class BinaryTree {
 
         System.out.print(root.data + " ");
 //        System.out.println("left ---> ");
-        preOrder(root.left);
+        preOrderRecursive(root.left);
 //        System.out.println("right ---> ");
-        preOrder(root.right);
+        preOrderRecursive(root.right);
+    }
+
+    // Without recursive method, we try to preOrder the tree
+    public void preOrder(TreeNode root){
+
+        if (root == null){
+            return;
+        }
+
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+
+        while (!stack.isEmpty()){
+
+            TreeNode temporary = stack.pop();
+            System.out.println(temporary.data + " ");
+
+            if (temporary.right != null){
+                stack.push(temporary.right);
+            }
+            if (temporary.left != null){
+                stack.push(temporary.left);
+            }
+
+        }
 
     }
 
@@ -58,8 +85,10 @@ public class BinaryTree {
 
         tree.createBinaryTree();
 
-        tree.preOrder(tree.root);
-
+        System.out.println("**** preOrder - with recursive method ****");
+        tree.preOrderRecursive(tree.root);
+        System.out.println("\n**** preOrder - by using stack and while ****");
+        tree.preOrderRecursive(tree.root);
 
     }
 
