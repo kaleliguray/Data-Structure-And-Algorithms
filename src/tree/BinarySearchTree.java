@@ -53,6 +53,21 @@ public class BinarySearchTree {
         inOrder(root.right);
     }
 
+    // searching a value in the tree
+    public TreeNode search(TreeNode root, int value){
+
+        if (root ==  null || value == root.data){
+            return root;
+        }
+
+        if (value < root.data){
+            return search(root.left, value);
+
+        }else {
+            return search(root.right, value);
+        }
+    }
+
     public static void main(String[] args) {
 
         BinarySearchTree binarySearchTree = new BinarySearchTree();
@@ -63,6 +78,17 @@ public class BinarySearchTree {
         binarySearchTree.insert(1);
 
         binarySearchTree.inOrder(binarySearchTree.root);
+
+        System.out.println("\n**** Search a given value in the tree ****");
+
+        if (null != binarySearchTree.search(binarySearchTree.root, 10)){
+            System.out.println("The value is founded!!!");
+        }else {
+            System.out.println("The value is not founded!!!");
+        }
+
+
+
 
     }
 
