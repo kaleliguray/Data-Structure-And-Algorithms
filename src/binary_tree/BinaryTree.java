@@ -28,6 +28,7 @@ public class BinaryTree {
         TreeNode third = new TreeNode(3);
         TreeNode forth = new TreeNode(4);
         TreeNode fifth =  new TreeNode(5);
+        TreeNode sixth =  new TreeNode(6);
 
         root = first; // root ---> first
         first.left = second; // second <--- first --->
@@ -35,6 +36,9 @@ public class BinaryTree {
 
         second.left = forth; // forth <--- second --->
         second.right = fifth; // forth <--- second ---> fifth
+
+        third.right = sixth;
+
 
     }
 
@@ -128,6 +132,49 @@ public class BinaryTree {
 
     }
 
+    // postOrder with Stack and temporary variable ---> it is also called as reversal postOrder
+    public void postOrder_with_stack(TreeNode root){
+
+        if (root == null){
+            return;
+        }
+
+        TreeNode current = root;
+        TreeNode temporary;
+
+        Stack<TreeNode> stack = new Stack<>();
+
+        while (current != null || !stack.isEmpty()){
+
+            if (current != null){
+                stack.push(current);
+                current = current.left;
+
+            } else {
+
+                temporary = stack.peek().right;
+
+                if (temporary == null){
+                    temporary = stack.pop();
+                    System.out.print(temporary.data + " ");
+
+                    while (!stack.isEmpty() && temporary == stack.peek().right){
+                        temporary = stack.pop();
+                        System.out.print(temporary.data + " ");
+
+                    }
+                } else {
+
+                    current = temporary;
+                }
+
+            }
+
+
+        }
+
+
+    }
 
 
 
@@ -148,7 +195,8 @@ public class BinaryTree {
         tree.inOrder_With_Stack(tree.root);
         System.out.println("\n**** postOrder method - Binary Tree ****");
         tree.postOrder(tree.root);
-
+        System.out.println("\n**** postOrder method with Stack or reversal postOrder - Binary Tree ****");
+        tree.postOrder_with_stack(tree.root);
 
 
     }
