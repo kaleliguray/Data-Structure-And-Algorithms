@@ -89,6 +89,44 @@ public class BinaryTree {
         inOrder(root.right);
     }
 
+    // Likewise inOrder() method but this time we use the Stack and temporary node to travel among the tree's leaf
+    public void inOrder_With_Stack(TreeNode root){
+        if (root == null){
+            return;
+        }
+
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode temporary = root;
+
+        while (temporary != null || !stack.isEmpty()){
+
+            if (temporary != null){
+                stack.push(temporary);
+                temporary = temporary.left;
+
+            } else {
+                temporary = stack.pop();
+                System.out.print(temporary.data + " ");
+                temporary = temporary.right;
+
+            }
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -114,6 +152,8 @@ public class BinaryTree {
         tree.preOrderRecursive(tree.root);
         System.out.println("\n**** inOrder - Binary Tree - by using stack and while ****");
         tree.inOrder(tree.root);
+        System.out.println("\n**** inOrder with Stack & Temporary - Binary Tree - by using stack and while ****");
+        tree.inOrder_With_Stack(tree.root);
 
     }
 
