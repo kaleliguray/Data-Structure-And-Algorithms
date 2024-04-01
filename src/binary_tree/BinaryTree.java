@@ -25,12 +25,12 @@ public class BinaryTree {
 
     public void createBinaryTree(){
 
-        TreeNode first = new TreeNode(9);
+        TreeNode first = new TreeNode(1);
         TreeNode second = new TreeNode(2);
         TreeNode third = new TreeNode(3);
         TreeNode forth = new TreeNode(4);
-        TreeNode fifth =  new TreeNode(5);
-        TreeNode sixth =  new TreeNode(6);
+        TreeNode fifth =  new TreeNode(9);
+        TreeNode sixth =  new TreeNode(8);
         TreeNode seventh =  new TreeNode(7);
 
         root = first; // root ---> first
