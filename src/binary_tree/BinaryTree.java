@@ -207,12 +207,31 @@ public class BinaryTree {
         }
 
 
+
+
     }
 
+    // finding max value in the tree
+    public int findMaxValue(TreeNode root){
 
+        if (root == null){
+            return 0; // I choose the zero-0 for compare as a min value, however we can use Integer.MIN_VALUE, as well
+        }
 
+        int result = root.data;
 
+        int left = findMaxValue(root.left);
+        int right = findMaxValue(root.right);
 
+        if (left > result){
+            result = left;
+        }
+        if (right > result){
+            result = right;
+        }
+
+        return result;
+    }
 
 
 
@@ -240,6 +259,9 @@ public class BinaryTree {
         tree.postOrder_with_stack(tree.root);
         System.out.println("\n**** order with Queue - Binary Tree ****");
         tree.order_with_queue(tree.root);
+        System.out.println("\n**** find max value - Binary Tree ****");
+        int max = tree.findMaxValue(tree.root);
+        System.out.println("Max Value : " + max);
 
     }
 
