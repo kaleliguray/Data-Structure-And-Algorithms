@@ -76,8 +76,31 @@ public class BinaryTree {
             }
 
         }
-
     }
+
+    // This method travels through the tree by starting from the left branch to the right one
+    public void inOrder(TreeNode root){
+        if (root == null){
+            return;
+        }
+
+        inOrder(root.left);
+        System.out.print(root.data + " ");
+        inOrder(root.right);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public static void main(String[] args) {
 
@@ -89,6 +112,8 @@ public class BinaryTree {
         tree.preOrderRecursive(tree.root);
         System.out.println("\n**** preOrder - by using stack and while ****");
         tree.preOrderRecursive(tree.root);
+        System.out.println("\n**** inOrder - Binary Tree - by using stack and while ****");
+        tree.inOrder(tree.root);
 
     }
 
