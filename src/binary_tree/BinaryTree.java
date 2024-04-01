@@ -115,26 +115,18 @@ public class BinaryTree {
 
     }
 
+    // This method travels primarily the left side of the tree and then right leafs next visit the node
+    public void postOrder(TreeNode root){
 
+        if (root == null){
+            return;
+        }
 
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.print(root.data + " ");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 
 
@@ -154,6 +146,10 @@ public class BinaryTree {
         tree.inOrder(tree.root);
         System.out.println("\n**** inOrder with Stack & Temporary - Binary Tree - by using stack and while ****");
         tree.inOrder_With_Stack(tree.root);
+        System.out.println("\n**** postOrder method - Binary Tree ****");
+        tree.postOrder(tree.root);
+
+
 
     }
 
