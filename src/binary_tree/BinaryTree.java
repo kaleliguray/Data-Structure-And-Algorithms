@@ -29,6 +29,7 @@ public class BinaryTree {
         TreeNode forth = new TreeNode(4);
         TreeNode fifth =  new TreeNode(5);
         TreeNode sixth =  new TreeNode(6);
+        TreeNode seventh =  new TreeNode(7);
 
         root = first; // root ---> first
         first.left = second; // second <--- first --->
@@ -38,7 +39,7 @@ public class BinaryTree {
         second.right = fifth; // forth <--- second ---> fifth
 
         third.right = sixth;
-
+        third.left = seventh;
 
     }
 
