@@ -23,7 +23,8 @@ This project is trying to show examples of the lecture on data structure and alg
 - [Stack](#stack)
 - [Queue](#queue)
 - [Tree](#tree)
-  - [Binary Tree](#binary-tree) 
+  - [Binary Tree](#binary-tree)
+  - [Binary Search Tree](#binary-search-tree)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -162,6 +163,19 @@ It is a type of non-linear data structure for information storage. It consists o
 A tree is called as Binary Tree, if each node has zero, one, or two children
 
 ![tree](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/eefb1169-bc0d-487c-a3e3-9e6e3582db5a)
+
+### Binary Search Tree
+
+This particular kind of binary tree has data arranged in an orderly fashion to facilitate quicker data insertion and search. 
+
+<ol>
+  <p>It satisfies the criteria mentioned below:</p>
+  <li>A node's left subtree only includes nodes whose values are lower than the node's value.</li>
+  <li>The right subtree of a node contains only nodes with values greater than the node's value.</li>
+  <li>It is also necessary for the left and right subtrees to be binary search trees. </li>
+</ol>
+
+![binarytree](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/e2423428-aa7a-4a3e-814b-c44de363aa39)
 
 ## Usage & Contributing
 
