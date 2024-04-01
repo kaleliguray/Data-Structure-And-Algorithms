@@ -1,5 +1,7 @@
 package src.binary_tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -177,6 +179,44 @@ public class BinaryTree {
 
     }
 
+    // travel tree nodes-leaf by using Queue, this method firstly prints parent nodes then leafs
+    public void order_with_queue(TreeNode root){
+
+        if (root == null){
+            return;
+        }
+
+        TreeNode temporary;
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        queue.offer(root);
+
+        while (!queue.isEmpty()){
+
+            temporary = queue.poll();
+            System.out.print(temporary.data + " ");
+
+            if (temporary.left != null){
+                queue.offer(temporary.left);
+            }
+            if (temporary.right != null){
+                queue.offer(temporary.right);
+            }
+
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -198,7 +238,8 @@ public class BinaryTree {
         tree.postOrder(tree.root);
         System.out.println("\n**** postOrder method with Stack or reversal postOrder - Binary Tree ****");
         tree.postOrder_with_stack(tree.root);
-
+        System.out.println("\n**** order with Queue - Binary Tree ****");
+        tree.order_with_queue(tree.root);
 
     }
 
