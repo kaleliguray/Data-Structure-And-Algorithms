@@ -31,7 +31,7 @@ public class SpiralMatrix {
                 System.out.print(matrix[i][c-1] + " ");
             }
             c--; // decrease column size to go to right column to left
-
+            
             if(k<r){
 
                 // right ---> left
