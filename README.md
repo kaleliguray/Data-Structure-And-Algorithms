@@ -205,13 +205,15 @@ Since Binary Heaps is a whole binary tree, the values are kept in an array by go
 
 ![heap](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/a5caca96-e8fd-4a7c-b582-c5f8a98b1405)
 
-<p><b>Parent - Child Calculation</b></p>
+<p><b>Parent - Child Calculation</b></p><br>
 
-* Children of 1st index = 2,3    ||   Parent of 7th index = 3 ---> 7/2 = 3.5 ~ 3
-* Children of 2nd index = 4,5    ||   Parent of 6th index = 3 ---> 6/2 = 3
-* Children of 3rd index = 6,7    ||   Parent of 5th index = 2 ---> 5/2 = 2.5 ~ 2
-
-<p><b>Children of k index = 2*k, 2*k+1</b></p>  <p><b>Parent of k index = k/2</b></p>
+<div>
+  <p>Children of 1st index = 2,3   &nbsp&nbsp&nbsp   Parent of 7th index = 3 ---> 7/2 = 3.5 ~ 3</p>
+  <p>Children of 2nd index = 4,5   &nbsp&nbsp&nbsp   Parent of 6th index = 3 ---> 6/2 = 3</p>
+  <p>Children of 3rd index = 6,7   &nbsp&nbsp&nbsp   Parent of 5th index = 2 ---> 5/2 = 2.5 ~ 2</p>  
+</div>
+<br>
+<p><b>Children of k index =</b> 2*k, 2*k+1</p> <p><b>Parent of k index =</b> k/2</p>
 
 
 ### Complete Binary Tree
