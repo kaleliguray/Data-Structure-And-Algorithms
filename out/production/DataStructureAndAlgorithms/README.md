@@ -25,6 +25,9 @@ This project is trying to show examples of the lecture on data structure and alg
 - [Tree](#tree)
   - [Binary Tree](#binary-tree)
   - [Binary Search Tree](#binary-search-tree)
+  - [Priority Queue](#priority-queue)
+  - [Binary Heap](#binary-heap)
+  - [Complete Binary Tree](#complete-binary-tree)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -176,6 +179,48 @@ This particular kind of binary tree has data arranged in an orderly fashion to f
 </ol>
 
 ![binarytree](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/e2423428-aa7a-4a3e-814b-c44de363aa39)
+
+### Priority Queue
+
+A data structure called a priority queue enables us to quickly determine the minimum and maximum elements in a set of components. 
+
+<ol>
+  <p>It supports the following operations:</p>
+  <li>insert(key) - Insert a key into the priority queue</li>
+  <li>deleteMax() / deleteMin() - return and remove largest / smallest key</li>
+  <li>getMax() / getMin() - return largest / smallest key</li>
+</ol>
+
+### Binary Heap
+
+The binary heap is a data structure that helps us in implementing Priority Queue operation efficiently. A binary heap is a complete binary tree in which each node value is " >= " or " <= " than the values of its children.
+
+![binary_heap](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/322280db-9960-4082-809b-11f4cd24f0ed)
+
+Typically, arrays are used to implement binary heaps.
+
+The array's initial entry is regarded as empty.
+
+Since Binary Heaps is a whole binary tree, the values are kept in an array by going from left to right through each level of the tree.
+
+![heap](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/a5caca96-e8fd-4a7c-b582-c5f8a98b1405)
+
+<p><b>Parent - Child Calculation</b></p><br>
+
+<div>
+  <p>Children of 1st index = 2,3   &nbsp&nbsp&nbsp   Parent of 7th index = 3 ---> 7/2 = 3.5 ~ 3</p>
+  <p>Children of 2nd index = 4,5   &nbsp&nbsp&nbsp   Parent of 6th index = 3 ---> 6/2 = 3</p>
+  <p>Children of 3rd index = 6,7   &nbsp&nbsp&nbsp   Parent of 5th index = 2 ---> 5/2 = 2.5 ~ 2</p>  
+</div>
+<br>
+<p><b>Children of k index =</b> 2*k, 2*k+1</p> <p><b>Parent of k index =</b> k/2</p>
+
+
+### Complete Binary Tree
+
+A complete binary tree is a binary tree where all levels are filled except the last level and the last level has nodes so that the left side is never empty.
+
+![complete_binary_tree](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/b9c8ad6e-24f8-475b-8b5a-bb8f6cffa7ff)
 
 ## Usage & Contributing
 
