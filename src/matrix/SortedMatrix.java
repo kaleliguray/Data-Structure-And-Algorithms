@@ -1,4 +1,4 @@
-package src;
+package src.matrix;
 
 /**
  * @author giraykaleli
