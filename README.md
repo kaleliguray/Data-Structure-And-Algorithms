@@ -26,6 +26,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Binary Tree](#binary-tree)
   - [Binary Search Tree](#binary-search-tree)
 - [Priority Queue](#priority-queue)
+- [Binary Heap](#binary-heap)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -178,7 +179,7 @@ This particular kind of binary tree has data arranged in an orderly fashion to f
 
 ![binarytree](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/e2423428-aa7a-4a3e-814b-c44de363aa39)
 
-## Priority Queue
+### Priority Queue
 
 A data structure called a priority queue enables us to quickly determine the minimum and maximum elements in a set of components. 
 
@@ -188,6 +189,18 @@ A data structure called a priority queue enables us to quickly determine the min
   <li>deleteMax() / deleteMin() - return and remove largest / smallest key</li>
   <li>getMax() / getMin() - return largest / smallest key</li>
 </ol>
+
+### Binary Heap
+
+The binary heap is a data structure that helps us in implementing Priority Queue operation efficiently. A binary heap is a complete binary tree in which each node value is " >= " or " <= " than the values of its children.
+
+![binary_heap](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/322280db-9960-4082-809b-11f4cd24f0ed)
+
+### Complete Binary Tree
+
+A complete binary tree is a binary tree where all levels are filled except the last level and the last level has nodes so that the left side is never empty.
+
+![complete_binary_tree](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/b9c8ad6e-24f8-475b-8b5a-bb8f6cffa7ff)
 
 ## Usage & Contributing
 
