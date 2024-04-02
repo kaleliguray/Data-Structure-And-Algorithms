@@ -50,6 +50,7 @@ public class SortedMatrix {
 
         SortedMatrix sm = new SortedMatrix();
         sm.search(matrix, matrix.length,32);
+        sm.search(matrix, matrix.length,88);
 
 
 
