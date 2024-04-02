@@ -25,6 +25,7 @@ This project is trying to show examples of the lecture on data structure and alg
 - [Tree](#tree)
   - [Binary Tree](#binary-tree)
   - [Binary Search Tree](#binary-search-tree)
+- [Priority Queue](#priority-queue)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -176,6 +177,17 @@ This particular kind of binary tree has data arranged in an orderly fashion to f
 </ol>
 
 ![binarytree](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/e2423428-aa7a-4a3e-814b-c44de363aa39)
+
+## Priority Queue
+
+A data structure called a priority queue enables us to quickly determine the minimum and maximum elements in a set of components. 
+
+<ol>
+  <p>It supports the following operations:</p>
+  <li>insert(key) - Insert a key into the priority queue</li>
+  <li>deleteMax() / deleteMin() - return and remove largest / smallest key</li>
+  <li>getMax() / getMin() - return largest / smallest key</li>
+</ol>
 
 ## Usage & Contributing
 
