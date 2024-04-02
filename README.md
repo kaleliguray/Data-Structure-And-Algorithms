@@ -197,6 +197,15 @@ The binary heap is a data structure that helps us in implementing Priority Queue
 
 ![binary_heap](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/322280db-9960-4082-809b-11f4cd24f0ed)
 
+Typically, arrays are used to implement binary heaps.
+
+The array's initial entry is regarded as empty.
+
+Since Binary Heaps is a whole binary tree, the values are kept in an array by going from left to right through each level of the tree.
+
+![heap](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/a5caca96-e8fd-4a7c-b582-c5f8a98b1405)
+
+
 ### Complete Binary Tree
 
 A complete binary tree is a binary tree where all levels are filled except the last level and the last level has nodes so that the left side is never empty.
