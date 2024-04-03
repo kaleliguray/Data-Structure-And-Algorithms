@@ -5,6 +5,8 @@ package src.tree;
  *
  * In here, we will demonstrate how the max priority queue looks like
  * And how they are using array
+ *
+ *
  */
 
 public class MaxPriorityQueue {
@@ -62,6 +64,7 @@ public class MaxPriorityQueue {
         }
     }
 
+    // delete max value which is parent of the tree & to do this by using top-down | reheapify | sink | shiftdown method
     public void sink(int k){
 
         while(k*2 <= n){
@@ -117,7 +120,7 @@ public class MaxPriorityQueue {
 
         System.out.println(mqp.size());
         mqp.print_max_heap();
-        
+
         System.out.println();
 
         mqp.deleteMax();
