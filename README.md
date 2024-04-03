@@ -28,6 +28,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Priority Queue](#priority-queue)
   - [Binary Heap](#binary-heap)
   - [Complete Binary Tree](#complete-binary-tree)
+  - [Reheapify Bottom To Up](#reheapify-bottom-to-up)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -221,6 +222,11 @@ Since Binary Heaps is a whole binary tree, the values are kept in an array by go
 A complete binary tree is a binary tree where all levels are filled except the last level and the last level has nodes so that the left side is never empty.
 
 ![complete_binary_tree](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/b9c8ad6e-24f8-475b-8b5a-bb8f6cffa7ff)
+
+### Reheapify Bottom To Up
+
+A Max heap or A Min heap is complete binary tree in which node value is " >= " or " <= "than the value of its children. After inserting a new element into the heap, it will not susitable above heap property or structure depends on Max or Min. Thus, We should perform " bottom-up reheapify " technique, in which we have to adjust the location of the new element to satisfy heap property.
+
 
 ## Usage & Contributing
 
