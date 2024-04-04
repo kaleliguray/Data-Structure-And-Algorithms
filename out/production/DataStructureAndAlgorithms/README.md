@@ -29,6 +29,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Binary Heap](#binary-heap)
   - [Complete Binary Tree](#complete-binary-tree)
   - [Reheapify Bottom To Up](#reheapify-bottom-to-up)
+- [Bubble Sort](#bubble-sort)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -227,6 +228,13 @@ A complete binary tree is a binary tree where all levels are filled except the l
 
 A Max heap or A Min heap is complete binary tree in which node value is " >= " or " <= "than the value of its children. After inserting a new element into the heap, it will not susitable above heap property or structure depends on Max or Min. Thus, We should perform " bottom-up reheapify " technique, in which we have to adjust the location of the new element to satisfy heap property.
 
+## Bubble Sort
+
+Another name for it is Sinking Sort. Large elements have a tendency to sink near the end of an array when this sorting technique is applied to an unsorted array. It compares nearby element pairs frequently, switching them around if one of them is out of order.
+
+<img src="https://miro.medium.com/v2/resize:fit:776/1*7QsZkfrRGhAu5yxxeDdzsA.png" alt="Resource from Karuna Sehga - Medium Page - Bubble Sorting Algorithm Image"/>
+
+<a href="https://medium.com/karuna-sehgal/an-introduction-to-bubble-sort-d85273acfcd8">Resource from Karuna Sehga - Medium Page - Bubble Sorting Algorithm Image</a>
 
 ## Usage & Contributing
 
