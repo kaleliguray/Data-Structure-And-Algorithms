@@ -232,7 +232,7 @@ A Max heap or A Min heap is complete binary tree in which node value is " >= " o
 
 Another name for it is Sinking Sort. Large elements have a tendency to sink near the end of an array when this sorting technique is applied to an unsorted array. It compares nearby element pairs frequently, switching them around if one of them is out of order.
 
-![Resource from Karuna Sehga - Medium Page - Bubble Sort Alrgorithm Visual](https://website-name.com](https://miro.medium.com/v2/resize:fit:776/1*7QsZkfrRGhAu5yxxeDdzsA.png)
+<img src="https://miro.medium.com/v2/resize:fit:776/1*7QsZkfrRGhAu5yxxeDdzsA.png" alt="Resource from Karuna Sehga - Medium Page - Bubble Sorting Algorithm Image"/><br>Resource from Karuna Sehga - Medium Page - Bubble Sorting Algorithm Image
 
 
 ## Usage & Contributing
