@@ -30,6 +30,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Complete Binary Tree](#complete-binary-tree)
   - [Reheapify Bottom To Up](#reheapify-bottom-to-up)
 - [Bubble Sort](#bubble-sort)
+- [Insertion Sort](#insertion-sort)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -235,6 +236,15 @@ Another name for it is Sinking Sort. Large elements have a tendency to sink near
 <img src="https://miro.medium.com/v2/resize:fit:776/1*7QsZkfrRGhAu5yxxeDdzsA.png" alt="Resource from Karuna Sehga - Medium Page - Bubble Sorting Algorithm Image"/>
 
 <a href="https://medium.com/karuna-sehgal/an-introduction-to-bubble-sort-d85273acfcd8">Resource from Karuna Sehga - Medium Page - Bubble Sorting Algorithm Image</a>
+
+## Insertion Sort
+
+A straightforward sorting method called "insertion sort" operates similarly to how we sort cards when playing with our hands. The supplied array is split into the sorted part and the unsorted component during the insertion sort process. We take the first member from the unsorted section and insert it into the sorted array at the appropriate location. All items that are larger than the initial element are shifted by one position to achieve this. Until the unsorted array is not empty, it is repeatedly done.
+
+<img src="https://miro.medium.com/v2/resize:fit:765/0*1zi2XtjiLXa3LYZh.PNG" alt="Resource from Austin Stanley - Medium Page - Insertion Sort Algorithm Image"/>
+
+<a href="https://medium.com/austins-software-engineering-journey/insertion-sort-ea0645cc5a23">Resource from Austin Stanley - Medium Page - Insertion Sort Algorithm Image</a>
+
 
 ## Usage & Contributing
 

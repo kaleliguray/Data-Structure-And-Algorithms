@@ -32,7 +32,6 @@ public class BubbleSort {
                 break;
             }
         }
-
     }
 
     public static void main(String[] args) {
