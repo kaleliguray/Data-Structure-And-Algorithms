@@ -32,6 +32,7 @@ This project is trying to show examples of the lecture on data structure and alg
 - [Bubble Sort](#bubble-sort)
 - [Insertion Sort](#insertion-sort)
 - [Selection Sort](#selection-sort)
+- [Merge Two Sorted Array](#merge-two-sorted-array)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -253,6 +254,25 @@ In Selection Sort, we divide the given array into two parts - the sorted section
 <img src="https://he-s3.s3.amazonaws.com/media/uploads/2888f5b.png" alt="Resource from HackerRank Web Page - Selection Sort Algorithm Image"/>
 
 <a href="https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/">Resource from HackerRank Web Page - Selection Sort Algorithm Image</a>
+
+## Merge Two Sorted Array
+
+The algorithm is a fundamental technique used to merge two arrays that are already sorted into a single sorted array.
+
+<p><b>Here's a basic description of the algorithm:</b></p>
+
+<ol type="1">
+  <li>Start with two sorted arrays.</li>
+  <li>Initialize an empty array to hold the merged result.</li>
+  <li>Iterate through both arrays simultaneously, comparing elements from both arrays.</li>
+  <li>At each step, select the smaller of the two elements and append it to the merged array.</li>
+  <li>Continue this process until all elements from both arrays have been merged into the result array.</li>
+  <li>Return the merged array.</li>
+</ol>
+
+<img src="https://4.bp.blogspot.com/-TfpqUSEDSiI/WAJHCTZyZRI/AAAAAAAABVw/4Sznk1dXHcQiC5OXk9DKexXMvb3PDJ2oQCLcB/s1600/merge-two-sorted-array-algorithm.png" alt="Resource from javabypatel.blogspot Web Page - Merge two sorted arrays Java"/>
+
+<a href="https://javabypatel.blogspot.com/2016/10/merge-two-sorted-arrays-in-java.html">Resource from javabypatel.blogspot Web Page - Merge two sorted arrays Java</a>
 
 
 ## Usage & Contributing
