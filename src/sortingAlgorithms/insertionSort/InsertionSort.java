@@ -1,7 +1,12 @@
-package src.insertionSort;
+package src.sortingAlgorithms.insertionSort;
 
 /**
  * @author giraykaleli
+ *
+ * In this algorithm, when we are sorting, first of all we choose maximum element in the array
+ *
+ * And then make comparasion between sorted section and unsorted section
+ *
  */
 
 public class InsertionSort {

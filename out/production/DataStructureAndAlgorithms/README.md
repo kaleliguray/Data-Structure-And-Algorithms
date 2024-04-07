@@ -31,6 +31,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Reheapify Bottom To Up](#reheapify-bottom-to-up)
 - [Bubble Sort](#bubble-sort)
 - [Insertion Sort](#insertion-sort)
+- [Selection Sort](#selection-sort)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -244,6 +245,14 @@ A straightforward sorting method called "insertion sort" operates similarly to h
 <img src="https://miro.medium.com/v2/resize:fit:765/0*1zi2XtjiLXa3LYZh.PNG" alt="Resource from Austin Stanley - Medium Page - Insertion Sort Algorithm Image"/>
 
 <a href="https://medium.com/austins-software-engineering-journey/insertion-sort-ea0645cc5a23">Resource from Austin Stanley - Medium Page - Insertion Sort Algorithm Image</a>
+
+## Selection Sort
+
+In Selection Sort, we divide the given array into two parts - the sorted section and the unsorted section. The algorithm sorts an array by repeatedly finding the minimum in the unsorted section and making it a part of the sorted section. From the unsorted part, we pick the minimum element and swap it with the leftmost element of the unsorted part. After the swap, that element now becomes a part of the sorted array. This process is repeated until the unsorted array is empty.
+
+<img src="https://he-s3.s3.amazonaws.com/media/uploads/2888f5b.png" alt="Resource from HackerRank Web Page - Selection Sort Algorithm Image"/>
+
+<a href="https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/">Resource from HackerRank Web Page - Selection Sort Algorithm Image</a>
 
 
 ## Usage & Contributing

@@ -1,4 +1,4 @@
-package src.bubbleSort;
+package src.sortingAlgorithms.bubbleSort;
 
 /**
  * @author giraykaleli
