@@ -29,9 +29,11 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Binary Heap](#binary-heap)
   - [Complete Binary Tree](#complete-binary-tree)
   - [Reheapify Bottom To Up](#reheapify-bottom-to-up)
-- [Bubble Sort](#bubble-sort)
-- [Insertion Sort](#insertion-sort)
-- [Selection Sort](#selection-sort)
+- [Sorting Algorithms](#sorting-algorithms)
+  - [Bubble Sort](#bubble-sort)
+  - [Insertion Sort](#insertion-sort)
+  - [Selection Sort](#selection-sort)
+  - [Merge Two Sorted Array](#merge-two-sorted-array)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -230,7 +232,9 @@ A complete binary tree is a binary tree where all levels are filled except the l
 
 A Max heap or A Min heap is complete binary tree in which node value is " >= " or " <= "than the value of its children. After inserting a new element into the heap, it will not susitable above heap property or structure depends on Max or Min. Thus, We should perform " bottom-up reheapify " technique, in which we have to adjust the location of the new element to satisfy heap property.
 
-## Bubble Sort
+## Sorting Algorithms
+
+### Bubble Sort
 
 Another name for it is Sinking Sort. Large elements have a tendency to sink near the end of an array when this sorting technique is applied to an unsorted array. It compares nearby element pairs frequently, switching them around if one of them is out of order.
 
@@ -238,7 +242,7 @@ Another name for it is Sinking Sort. Large elements have a tendency to sink near
 
 <a href="https://medium.com/karuna-sehgal/an-introduction-to-bubble-sort-d85273acfcd8">Resource from Karuna Sehga - Medium Page - Bubble Sorting Algorithm Image</a>
 
-## Insertion Sort
+### Insertion Sort
 
 A straightforward sorting method called "insertion sort" operates similarly to how we sort cards when playing with our hands. The supplied array is split into the sorted part and the unsorted component during the insertion sort process. We take the first member from the unsorted section and insert it into the sorted array at the appropriate location. All items that are larger than the initial element are shifted by one position to achieve this. Until the unsorted array is not empty, it is repeatedly done.
 
@@ -246,13 +250,32 @@ A straightforward sorting method called "insertion sort" operates similarly to h
 
 <a href="https://medium.com/austins-software-engineering-journey/insertion-sort-ea0645cc5a23">Resource from Austin Stanley - Medium Page - Insertion Sort Algorithm Image</a>
 
-## Selection Sort
+### Selection Sort
 
 In Selection Sort, we divide the given array into two parts - the sorted section and the unsorted section. The algorithm sorts an array by repeatedly finding the minimum in the unsorted section and making it a part of the sorted section. From the unsorted part, we pick the minimum element and swap it with the leftmost element of the unsorted part. After the swap, that element now becomes a part of the sorted array. This process is repeated until the unsorted array is empty.
 
 <img src="https://he-s3.s3.amazonaws.com/media/uploads/2888f5b.png" alt="Resource from HackerRank Web Page - Selection Sort Algorithm Image"/>
 
 <a href="https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/">Resource from HackerRank Web Page - Selection Sort Algorithm Image</a>
+
+### Merge Two Sorted Array
+
+The algorithm is a fundamental technique used to merge two arrays that are already sorted into a single sorted array.
+
+<p><b>Here's a basic description of the algorithm:</b></p>
+
+<ol type="1">
+  <li>Start with two sorted arrays.</li>
+  <li>Initialize an empty array to hold the merged result.</li>
+  <li>Iterate through both arrays simultaneously, comparing elements from both arrays.</li>
+  <li>At each step, select the smaller of the two elements and append it to the merged array.</li>
+  <li>Continue this process until all elements from both arrays have been merged into the result array.</li>
+  <li>Return the merged array.</li>
+</ol>
+
+<img src="https://4.bp.blogspot.com/-TfpqUSEDSiI/WAJHCTZyZRI/AAAAAAAABVw/4Sznk1dXHcQiC5OXk9DKexXMvb3PDJ2oQCLcB/s1600/merge-two-sorted-array-algorithm.png" alt="Resource from javabypatel.blogspot Web Page - Merge two sorted arrays Java"/>
+
+<a href="https://javabypatel.blogspot.com/2016/10/merge-two-sorted-arrays-in-java.html">Resource from javabypatel.blogspot Web Page - Merge two sorted arrays Java</a>
 
 
 ## Usage & Contributing
