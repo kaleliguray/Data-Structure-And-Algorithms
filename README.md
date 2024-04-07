@@ -34,6 +34,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Insertion Sort](#insertion-sort)
   - [Selection Sort](#selection-sort)
   - [Merge Two Sorted Array](#merge-two-sorted-array)
+  - [Merge Sort](#merge-sort)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -277,6 +278,15 @@ The algorithm is a fundamental technique used to merge two arrays that are alrea
 
 <a href="https://javabypatel.blogspot.com/2016/10/merge-two-sorted-arrays-in-java.html">Resource from javabypatel.blogspot Web Page - Merge two sorted arrays Java</a>
 
+### Merge Sort
+
+Merge Sort is an algorithm that divides and conquers.<br>
+* Divide: The array is split into two sections in this phase of the process through the use of the array's middle point. Until there are no more half arrays to divide, the process runs recursively for half arrays.
+* Conquer: In this section, we sort the divided arrays by working from the bottom up, combine them, and then obtain the array that is sorted.
+
+<img src="https://www.programiz.com/sites/tutorial2program/files/merge-sort-example_0.png" alt="Resource from programiz Web Page - Merge Sort Algorithm"/>
+
+<a href="https://www.programiz.com/dsa/merge-sort">Resource from programiz Web Page - Merge Sort Algorithm</a>
 
 ## Usage & Contributing
 
