@@ -1,4 +1,4 @@
-package src.sortingAlgorithms;
+package src.sortingAlgorithms.mergeTwoSortedArrays;
 
 /**
  * @author giraykaleli
