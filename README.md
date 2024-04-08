@@ -36,6 +36,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Merge Two Sorted Array](#merge-two-sorted-array)
   - [Merge Sort](#merge-sort)
   - [Dutch National Flag Sorting](#dutch-national-flag-sorting)
+  - [Quick Sort](#quick-sort)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -296,6 +297,20 @@ One of the most fundamental and significant array algorithms is the Dutch Nation
 <img src="https://i.imgur.com/8EpiwGe.jpg" alt="Resource from coderbyte.com - Dutch national flag sorting problem"/>
 
 <a href="https://coderbyte.com/algorithm/dutch-national-flag-sorting-problem">Resource from coderbyte.com - Dutch national flag sorting problem</a>
+
+### Quick Sort
+
+The divide-and-conquer method is used in Quick Sort. There are three steps to it.
+
+* <b>Pivot Selection:</b> We designate a pivot point by selecting an element. The initial element, the last element, or any other arbitrary element could be the pivot element.
+
+* <b>Partitioning:</b> We rearrange the array so that all elements larger than the pivot are placed after it, and all elements smaller than the pivot are placed before it. Elements equal to the pivot may be positioned on either side. Once this partitioning is done, the pivot occupies its correct sorted position.
+
+* <b>Recursive:</b> Repeatedly execute the described actions on the subset formed to the left and on the subset formed to the right of the pivot, utilizing recursion.
+
+![quick_sort](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/f8015154-de91-4ded-9a97-81dd107f4b82)
+
+<a href="https://www.enjoyalgorithms.com/blog/quick-sort-algorithm">Resource from enjoyalgorithms.com - Quick Sort Algorithm</a>
 
 ## Usage & Contributing
 
