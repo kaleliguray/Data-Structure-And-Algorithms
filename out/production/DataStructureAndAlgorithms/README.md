@@ -35,6 +35,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Selection Sort](#selection-sort)
   - [Merge Two Sorted Array](#merge-two-sorted-array)
   - [Merge Sort](#merge-sort)
+  - [Dutch National Flag Algorithm](#dutch-national-flag-algorithm)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -287,6 +288,14 @@ Merge Sort is an algorithm that divides and conquers.<br>
 <img src="https://www.programiz.com/sites/tutorial2program/files/merge-sort-example_0.png" alt="Resource from programiz Web Page - Merge Sort Algorithm"/>
 
 <a href="https://www.programiz.com/dsa/merge-sort">Resource from programiz Web Page - Merge Sort Algorithm</a>
+
+### Dutch National Flag Algorithm
+
+One of the most fundamental and significant array algorithms is the Dutch National Flag Algorithm (DFA). It is employed to separate an array with three integers in it in a linear amount of time. DFA has the worst time complexity of O(n), whereas the algorithm has the space-time complexity of O(1). You are given an array with 0s, 1s, and 2s in it. The task is to build a function that separates each number. Any order is possible. (<a href="https://medium.com/quick-code/dutch-flag-algorithm 3669af2b14fd#:~:text=Dutch%20Flag%20Algorithm%20(DFA)%20is,algorithm%20is%20O(1).">Resource</a>)
+
+<img src="https://i.imgur.com/8EpiwGe.jpg" alt="Resource from coderbyte.com - Dutch national flag sorting problem"/>
+
+<a href="https://coderbyte.com/algorithm/dutch-national-flag-sorting-problem">Resource from coderbyte.com - Dutch national flag sorting problem</a>
 
 ## Usage & Contributing
 
