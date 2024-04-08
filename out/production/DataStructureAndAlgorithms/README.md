@@ -35,7 +35,8 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Selection Sort](#selection-sort)
   - [Merge Two Sorted Array](#merge-two-sorted-array)
   - [Merge Sort](#merge-sort)
-  - [Dutch National Flag Algorithm](#dutch-national-flag-algorithm)
+  - [Dutch National Flag Sorting](#dutch-national-flag-sorting)
+  - [Quick Sort](#quick-sort)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -289,13 +290,27 @@ Merge Sort is an algorithm that divides and conquers.<br>
 
 <a href="https://www.programiz.com/dsa/merge-sort">Resource from programiz Web Page - Merge Sort Algorithm</a>
 
-### Dutch National Flag Algorithm
+### Dutch National Flag Sorting
 
 One of the most fundamental and significant array algorithms is the Dutch National Flag Algorithm (DFA). It is employed to separate an array with three integers in it in a linear amount of time. DFA has the worst time complexity of O(n), whereas the algorithm has the space-time complexity of O(1). You are given an array with 0s, 1s, and 2s in it. The task is to build a function that separates each number. Any order is possible. (<a href="https://medium.com/quick-code/dutch-flag-algorithm 3669af2b14fd#:~:text=Dutch%20Flag%20Algorithm%20(DFA)%20is,algorithm%20is%20O(1).">Resource</a>)
 
 <img src="https://i.imgur.com/8EpiwGe.jpg" alt="Resource from coderbyte.com - Dutch national flag sorting problem"/>
 
 <a href="https://coderbyte.com/algorithm/dutch-national-flag-sorting-problem">Resource from coderbyte.com - Dutch national flag sorting problem</a>
+
+### Quick Sort
+
+The divide-and-conquer method is used in Quick Sort. There are three steps to it.
+
+* <b>Pivot Selection:</b> We designate a pivot point by selecting an element. The initial element, the last element, or any other arbitrary element could be the pivot element.
+
+* <b>Partitioning:</b> We rearrange the array so that all elements larger than the pivot are placed after it, and all elements smaller than the pivot are placed before it. Elements equal to the pivot may be positioned on either side. Once this partitioning is done, the pivot occupies its correct sorted position.
+
+* <b>Recursive:</b> Repeatedly execute the described actions on the subset formed to the left and on the subset formed to the right of the pivot, utilizing recursion.
+
+![quick_sort](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/f8015154-de91-4ded-9a97-81dd107f4b82)
+
+<a href="https://www.enjoyalgorithms.com/blog/quick-sort-algorithm">Resource from enjoyalgorithms.com - Quick Sort Algorithm</a>
 
 ## Usage & Contributing
 
