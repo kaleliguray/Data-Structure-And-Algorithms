@@ -1,21 +1,26 @@
 package src.graph;
 
-public class Graph {
+import java.util.LinkedList;
+
+public class ListRepresentation {
 
     private int V; // number of vertices in Graph
     private int E; // number of edges in Graph
-    int[][] adjMatrix;
+    private LinkedList<Integer>[] adj;
 
-    public Graph(int nodes){
+    public ListRepresentation(int nodes){
         this.V = nodes;
         this.E = 0;
-        this.adjMatrix = new int[nodes][nodes];
+        this.adj = new LinkedList[nodes];
+
+        for (int v=0; v < V; v++){
+            adj[v] = new LinkedList<>();
+        }
     }
 
     public void addEdge(int u, int v){
-        // due to an undirected graph
-        this.adjMatrix[v][u] = 1;
-        this.adjMatrix[u][v] = 1;
+        adj[u].add(v);
+        adj[v].add(u);
         E++;
     }
 
@@ -24,7 +29,7 @@ public class Graph {
         builder.append(V + " vertices, " + E + " edges \n");
         for (int v=0; v < V; v++){
             builder.append(v + ": ");
-            for (int w : adjMatrix[v]){
+            for (int w : adj[v]){
                 builder.append(w + " ");
             }
             builder.append("\n");
@@ -34,13 +39,15 @@ public class Graph {
 
     public static void main(String[] args) {
 
-        Graph graph = new Graph(4);
+        ListRepresentation graph = new ListRepresentation(4);
         graph.addEdge(0,1);
         graph.addEdge(1,2);
         graph.addEdge(2,3);
         graph.addEdge(3,0);
 
         System.out.println(graph);
+
+
 
     }
 
