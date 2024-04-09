@@ -42,6 +42,7 @@ This project is trying to show examples of the lecture on data structure and alg
     - [Adjacency Matrix Representation](#adjacency-matrix-representation)
     - [Adjacency List Representation](#adjacency-list-representatio)
   - [Breath First Search](#breath-first-search)
+  - [Depth First Search]()#depth-first-search)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -400,6 +401,42 @@ BFS is typically used to find the shortest path between two vertices in an unwei
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-BFS-normal-image07.jpg" alt="Resource from techvidvan.com - Breadth First Search"/>
 
 <a href="https://techvidvan.com/tutorials/breadth-first-search/">Resource from techvidvan.com - Breadth First Search</a>
+
+### Depth First Search
+
+Graph Depth-First Search (DFS) is another fundamental algorithm used in graph traversal. Unlike Breadth-First Search (BFS), which explores vertices level by level, DFS explores as far as possible along each branch before backtracking. This means it goes as deep as possible before exploring other branches.
+
+<p>Here's a high-level overview of how DFS works:</p>
+
+<ol>
+  <li>Start at a selected vertex (often called the "root" or "source" vertex) and mark it as visited.</li>
+  <li>Visit an adjacent unvisited vertex.</li>
+  <li>Repeat step 2 recursively, starting from the newly visited vertex.</li>
+  <li>If there are no unvisited adjacent vertices, backtrack to the previous vertex.</li>
+  <li>Repeat steps 2-4 until all vertices are visited.</li>
+</ol>
+
+DFS can be implemented using recursion or by using a stack data structure to keep track of vertices to visit. When implemented recursively, the function call stack implicitly acts as the stack to keep track of vertices.
+
+<p>DFS has various applications, including:</p>
+
+<ul>
+  <li>Finding connected components in a graph.</li>
+  <li>Detecting cycles in a graph.</li>
+  <li>Topological sorting.</li>
+  <li>Solving puzzles and mazes.</li>
+  <li>Generating spanning trees, such as depth-first spanning trees.</li>
+</ul>
+
+DFS doesn't guarantee the shortest path, unlike BFS, but it's often more memory-efficient and simpler to implement.
+
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-Depth-First-Search-normal-image01.jpg" alt="Resource from techvidvan.com - Depth First Search"/>
+
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-Depth-First-Search-normal-image02.jpg" alt="Resource from techvidvan.com - Depth First Search"/>
+
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-Depth-First-Search-normal-image03.jpg" alt="Resource from techvidvan.com - Depth First Search"/>
+
+<a href="https://techvidvan.com/tutorials/depth-first-search-dfs/">Resource from techvidvan.com - Breadth First Search</a>
 
 ## Usage & Contributing
 
