@@ -40,7 +40,8 @@ This project is trying to show examples of the lecture on data structure and alg
 - [Graph](#graph)
   - [Undirected Graph](#undirected-graph)
     - [Adjacency Matrix Representation](#adjacency-matrix-representation)
-    - [Adjacency List Representation](#adjacency-list-representatio) 
+    - [Adjacency List Representation](#adjacency-list-representatio)
+  - [Breath First Search](#breath-first-search)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -371,6 +372,34 @@ In a linked list, the pivotal element is the 'Head' pointer, which singularly ov
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-DS-Graph-normal-image11.jpg" alt="Resource from techvidvan.com - Adjacency list representation undirected graph"/>
 
 <a href="https://techvidvan.com/tutorials/graph-in-data-structure/">Resource from techvidvan.com - Adjacency list representation undirected graph</a>
+
+### Breath First Search
+
+Graph breadth-first search (BFS) is a fundamental algorithm used in graph traversal. It explores all the vertices of a graph at the current depth before moving to the vertices at the next depth level. BFS starts at a selected vertex (often referred to as the "root" or "source" vertex) and systematically explores its adjacent vertices. Then, it moves to explore the vertices adjacent to those already visited, and so on, until all vertices have been visited.
+
+<p>Here's a high-level overview of how BFS works:</p>
+
+<ol type="1">
+  <li>Begin by selecting a starting vertex and mark it as visited.</li>
+  <li>Add this vertex to a queue data structure.</li>
+  <li>While the queue is not empty:</li>
+  <ul style="list-style-type:circle;">
+    <li>Remove a vertex from the front of the queue.</li>
+    <li>Visit all unvisited adjacent vertices of the removed vertex.</li>
+    <li>Mark each visited adjacent vertex as visited and add it to the queue.</li>
+  </ul>
+  <li> Repeat step 3 until the queue is empty.</li>
+</ol>
+    
+BFS is typically used to find the shortest path between two vertices in an unweighted graph, as it guarantees that the shortest path is found when traversing level by level. Additionally, BFS can be used to determine whether a path exists between two vertices and to find all connected components in a graph. It's an essential algorithm in various applications, including network routing, social network analysis, and maze solving.
+
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-BFS-normal-image01.jpg" alt="Resource from techvidvan.com - Breadth First Search"/>
+
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-BFS-normal-image03.jpg" alt="Resource from techvidvan.com - Breadth First Search"/>
+
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-BFS-normal-image07.jpg" alt="Resource from techvidvan.com - Breadth First Search"/>
+
+<a href="https://techvidvan.com/tutorials/breadth-first-search/">Resource from techvidvan.com - Breadth First Search</a>
 
 ## Usage & Contributing
 
