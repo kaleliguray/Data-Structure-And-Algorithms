@@ -44,6 +44,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Breath First Search](#breath-first-search)
   - [Depth First Search](#depth-first-search)
   - [Connected Components](#connected-components)
+- [Hashing](#hashing)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -459,6 +460,18 @@ Overall, connected components provide valuable insights into the structure and b
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200421194558/Count-of-Connected-Components.png" alt="Resource from geeksforgeeks.org - connected components"/>
 
 <a href="https://www.geeksforgeeks.org/count-of-unique-lengths-of-connected-components-for-an-undirected-graph-using-stl/">Resource from geeksforgeeks.org - connected components</a>
+
+## Hashing
+
+Before continuing the Hashing part, as long as we sum up our problem or aim is reaching O(1) time complexity. To do it, we checked linear search, binary search, and arrays. Shortly, you can find their relative image below.
+
+![pic1](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/87394c32-09f5-4f45-b663-d205688a527a)
+
+![pic2](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/305bf702-9f45-430d-aa06-ede401a8c633)
+
+* Hashing is a method used to quickly store, retrieve, and remove information. 
+* It involves converting a key of arbitrary size into a fixed-size value using a special function known as a Hash function. 
+* Operations like sorting, retrieving, and removing data supported by hashing have an average runtime complexity of O(1).
 
 ## Usage & Contributing
 
