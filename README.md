@@ -42,7 +42,7 @@ This project is trying to show examples of the lecture on data structure and alg
     - [Adjacency Matrix Representation](#adjacency-matrix-representation)
     - [Adjacency List Representation](#adjacency-list-representatio)
   - [Breath First Search](#breath-first-search)
-  - [Depth First Search]()(#depth-first-search)
+  - [Depth First Search](#depth-first-search)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
