@@ -39,6 +39,8 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Quick Sort](#quick-sort)
 - [Graph](#graph)
   - [Undirected Graph](#undirected-graph)
+    - [Adjacency Matrix Representation](#adjacency-matrix-representation)
+    - [Adjacency List Representation](#adjacency-list-representatio) 
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -348,11 +350,27 @@ An undirected graph is a type of graph in data structure where edges have no dir
 
 Undirected graphs are often represented visually with lines connecting nodes or vertices. They are used to model relationships where the connection between two entities is mutual or bidirectional, such as friendships in a social network or connections between webpages on the internet.
 
-In programming, undirected graphs can be implemented using various data structures such as adjacency lists or adjacency matrices.
+<p><b>In programming, undirected graphs can be implemented using various data structures such as adjacency lists or adjacency matrices.</b></p>
+
+#### Adjacency Matrix Representation
+
+n the adjacency matrix representation, we utilize a square matrix of size n*n, where 'n' signifies the number of nodes within the graph. This matrix illustrates the relationships between different vertices and edges. Each row and column in the matrix corresponds to a vertex, with the values indicating the existence or absence of edges.
 
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-DS-Graph-normal-image09.jpg" alt="Resource from techvidvan.com - Adjacency matrix representation undirected graph"/>
 
 <a href="https://techvidvan.com/tutorials/graph-in-data-structure/">Resource from techvidvan.com - Adjacency matrix representation undirected graph</a>
+
+#### Adjacency List Representation
+
+The adjacency list comprises an array of linked lists, where the array corresponds to all vertices, and each linked list represents the vertices connected to a specific node.
+
+In a linked list, the pivotal element is the 'Head' pointer, which singularly oversees the entire linked list. When representing a linked list, the total number of pointers required equals the number of nodes in the graph.
+
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-DS-Graph-normal-image11.jpg" alt="Resource from techvidvan.com - Adjacency list representation undirected graph"/>
+
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-DS-Graph-normal-image11.jpg" alt="Resource from techvidvan.com - Adjacency list representation undirected graph"/>
+
+<a href="https://techvidvan.com/tutorials/graph-in-data-structure/">Resource from techvidvan.com - Adjacency list representation undirected graph</a>
 
 ## Usage & Contributing
 
