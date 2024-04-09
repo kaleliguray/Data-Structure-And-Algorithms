@@ -37,6 +37,8 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Merge Sort](#merge-sort)
   - [Dutch National Flag Sorting](#dutch-national-flag-sorting)
   - [Quick Sort](#quick-sort)
+- [Graph](#graph)
+  - [Undirected Graph](#undirected-graph)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -311,6 +313,46 @@ The divide-and-conquer method is used in Quick Sort. There are three steps to it
 ![quick_sort](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/f8015154-de91-4ded-9a97-81dd107f4b82)
 
 <a href="https://www.enjoyalgorithms.com/blog/quick-sort-algorithm">Resource from enjoyalgorithms.com - Quick Sort Algorithm</a>
+
+## Graph
+
+* It's a data arrangement that isn't sequential, designed for data storage.
+* It comprises vertices and edges connecting pairs of vertices.
+* In the following instances, 1, 2, 3, 4, and 5 represent vertices in the graph, with each line linking them termed as an edge.
+
+![graph](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/fa14817c-2fde-472f-be92-0d391bbc0195)
+
+<p><b>Application - Socail Network</b></p>
+
+<ul style="list-style-type:circle;">
+  <li>Graphs aid in the creation of social networking platforms like Anakin, Micheal, etc., and can be referred to as social networking graphs.</li>
+  <li>Individuals' names serve as vertices in the graph.</li>
+  <li>The connection of friendship between two individuals can be depicted as an edge in the graph.</li>
+</ul>
+
+![socail_network](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/1e74411a-c661-4c07-a557-3a2f2f7b5ad3)
+
+<p><b>Application - Web Content Over The Internet</b></p>
+
+<ul style="list-style-type:circle;">
+  <li>Graphs assist in structuring web content across the internet.</li>
+  <li>Web pages like google.com, youtube.com, etc., serve as vertices in the graph.</li>
+  <li>The connection between two web pages can be depicted as an edge in the graph.</li>
+</ul>
+
+![web_content](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/f44fd251-a704-47ab-9647-72d68c1aa125)
+
+### Undirected Graph
+
+An undirected graph is a type of graph in data structure where edges have no direction. In other words, the relationship between vertices is symmetric. If vertex A is connected to vertex B, then vertex B is also connected to vertex A.
+
+Undirected graphs are often represented visually with lines connecting nodes or vertices. They are used to model relationships where the connection between two entities is mutual or bidirectional, such as friendships in a social network or connections between webpages on the internet.
+
+In programming, undirected graphs can be implemented using various data structures such as adjacency lists or adjacency matrices.
+
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-DS-Graph-normal-image09.jpg" alt="Resource from techvidvan.com - Adjacency matrix representation undirected graph"/>
+
+<a href="https://techvidvan.com/tutorials/graph-in-data-structure/">Resource from techvidvan.com - Adjacency matrix representation undirected graph</a>
 
 ## Usage & Contributing
 
