@@ -42,7 +42,7 @@ This project is trying to show examples of the lecture on data structure and alg
     - [Adjacency Matrix Representation](#adjacency-matrix-representation)
     - [Adjacency List Representation](#adjacency-list-representatio)
   - [Breath First Search](#breath-first-search)
-  - [Depth First Search]()#depth-first-search)
+  - [Depth First Search](#depth-first-search)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -436,7 +436,7 @@ DFS doesn't guarantee the shortest path, unlike BFS, but it's often more memory-
 
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-Depth-First-Search-normal-image03.jpg" alt="Resource from techvidvan.com - Depth First Search"/>
 
-<a href="https://techvidvan.com/tutorials/depth-first-search-dfs/">Resource from techvidvan.com - Breadth First Search</a>
+<a href="https://techvidvan.com/tutorials/depth-first-search-dfs/">Resource from techvidvan.com - Depth First Search</a>
 
 ## Usage & Contributing
 
