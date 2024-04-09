@@ -473,6 +473,8 @@ Before continuing the Hashing part, as long as we sum up our problem or aim is r
 * It involves converting a key of arbitrary size into a fixed-size value using a special function known as a Hash function. 
 * Operations like sorting, retrieving, and removing data supported by hashing have an average runtime complexity of O(1).
 
+![hash](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/57a81957-5ac1-4e85-a095-64acd56e69e6)
+
 ## Usage & Contributing
 
 You can clone the repository and download your local to work on it. If you want to provide more examples or if you detected any mistake on the example, please, review and correct then notify me with a commit request.
