@@ -436,7 +436,7 @@ DFS doesn't guarantee the shortest path, unlike BFS, but it's often more memory-
 
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-Depth-First-Search-normal-image03.jpg" alt="Resource from techvidvan.com - Depth First Search"/>
 
-<a href="https://techvidvan.com/tutorials/depth-first-search-dfs/">Resource from techvidvan.com - Breadth First Search</a>
+<a href="https://techvidvan.com/tutorials/depth-first-search-dfs/">Resource from techvidvan.com - Depth First Search</a>
 
 ## Usage & Contributing
 
