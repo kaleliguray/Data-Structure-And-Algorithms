@@ -38,6 +38,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Dutch National Flag Sorting](#dutch-national-flag-sorting)
   - [Quick Sort](#quick-sort)
 - [Graph](#graph)
+  - [Undirected Graph](#undirected-graph)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -340,6 +341,18 @@ The divide-and-conquer method is used in Quick Sort. There are three steps to it
 </ul>
 
 ![web_content](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/f44fd251-a704-47ab-9647-72d68c1aa125)
+
+### Undirected Graph
+
+An undirected graph is a type of graph in data structure where edges have no direction. In other words, the relationship between vertices is symmetric. If vertex A is connected to vertex B, then vertex B is also connected to vertex A.
+
+Undirected graphs are often represented visually with lines connecting nodes or vertices. They are used to model relationships where the connection between two entities is mutual or bidirectional, such as friendships in a social network or connections between webpages on the internet.
+
+In programming, undirected graphs can be implemented using various data structures such as adjacency lists or adjacency matrices.
+
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-DS-Graph-normal-image09.jpg" alt="Resource from techvidvan.com - Adjacency matrix representation undirected graph"/>
+
+<a href="https://techvidvan.com/tutorials/graph-in-data-structure/">Resource from techvidvan.com - Adjacency matrix representation undirected graph</a>
 
 ## Usage & Contributing
 
