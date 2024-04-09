@@ -37,6 +37,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Merge Sort](#merge-sort)
   - [Dutch National Flag Sorting](#dutch-national-flag-sorting)
   - [Quick Sort](#quick-sort)
+- [Graph](#graph)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -311,6 +312,34 @@ The divide-and-conquer method is used in Quick Sort. There are three steps to it
 ![quick_sort](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/f8015154-de91-4ded-9a97-81dd107f4b82)
 
 <a href="https://www.enjoyalgorithms.com/blog/quick-sort-algorithm">Resource from enjoyalgorithms.com - Quick Sort Algorithm</a>
+
+## Graph
+
+* It's a data arrangement that isn't sequential, designed for data storage.
+* It comprises vertices and edges connecting pairs of vertices.
+* In the following instances, 1, 2, 3, 4, and 5 represent vertices in the graph, with each line linking them termed as an edge.
+
+![graph](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/fa14817c-2fde-472f-be92-0d391bbc0195)
+
+<p><b>Application - Socail Network</b></p>
+
+<ul style="list-style-type:circle;">
+  <li>Graphs aid in the creation of social networking platforms like Anakin, Micheal, etc., and can be referred to as social networking graphs.</li>
+  <li>Individuals' names serve as vertices in the graph.</li>
+  <li>The connection of friendship between two individuals can be depicted as an edge in the graph.</li>
+</ul>
+
+![socail_network](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/1e74411a-c661-4c07-a557-3a2f2f7b5ad3)
+
+<p><b>Application - Web Content Over The Internet</b></p>
+
+<ul style="list-style-type:circle;">
+  <li>Graphs assist in structuring web content across the internet.</li>
+  <li>Web pages like google.com, youtube.com, etc., serve as vertices in the graph.</li>
+  <li>The connection between two web pages can be depicted as an edge in the graph.</li>
+</ul>
+
+![web_content](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/f44fd251-a704-47ab-9647-72d68c1aa125)
 
 ## Usage & Contributing
 
