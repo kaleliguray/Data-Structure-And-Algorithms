@@ -475,6 +475,10 @@ Before continuing the Hashing part, as long as we sum up our problem or aim is r
 
 ![hash](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/57a81957-5ac1-4e85-a095-64acd56e69e6)
 
+### Modular Hash Function
+
+![modular_hash_function](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/3ed3596c-4b90-4732-bdba-2fc9184d49ed)
+
 ## Usage & Contributing
 
 You can clone the repository and download your local to work on it. If you want to provide more examples or if you detected any mistake on the example, please, review and correct then notify me with a commit request.
