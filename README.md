@@ -479,6 +479,19 @@ Before continuing the Hashing part, as long as we sum up our problem or aim is r
 
 ![modular_hash_function](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/3ed3596c-4b90-4732-bdba-2fc9184d49ed)
 
+### HashTable
+
+* It's a generalized form of an array.
+* It stores data in the form of key-value pairs.
+* It utilizes a hash function to convert a key into an index.
+* Using the index, we store the key-value pair in an array.
+* The primary operations supported by the HashTable are:
+  - put(key, value) - adds a key-value pair with a unique key.
+  - get(key) - retrieves the value for the provided key.
+  - remove(key) - deletes the key-value pair from the HashTable.
+* The average runtime is O(1).
+* The Java Collections Framework includes the HashMap class for dealing with "key-value" pairs and the HashSet class for dealing solely with "keys".
+
 ## Usage & Contributing
 
 You can clone the repository and download your local to work on it. If you want to provide more examples or if you detected any mistake on the example, please, review and correct then notify me with a commit request.
