@@ -556,6 +556,10 @@ that uses hashing for fast operations like adding, removing, and checking if an 
 
 ![Screen Shot 2024-04-15 at 20 35 55 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/3202ce28-6d86-49e5-b3e9-6e22f1626ee2)
 
+### Overlapping Interval Calculation
+
+![Screen Shot 2024-04-15 at 21 08 19 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/3fdc10cc-5f07-4b13-90f9-6fde6d4fcfcc)
+
 ## Usage & Contributing
 
 You can clone the repository and download your local to work on it. If you want to provide more examples or if you detected any mistake on the example, please, review and correct then notify me with a commit request.
