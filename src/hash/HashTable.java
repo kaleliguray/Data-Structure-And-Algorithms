@@ -87,11 +87,12 @@ public class HashTable {
         HashTable table = new HashTable(); // default capacity 10
         table.put(100, "Michael");
         table.put(25, "Leo");
-        table.put(25, "Tom"); // --> Leo & Tom refer to same index, that is the reason why size is 3
+        table.put(15, "Tom"); // --> Leo & Tom refer to same index, that is the reason why size is 3
         table.put(40, "Harry");
         System.out.println(table.size);
         System.out.println(table.get(25));
         System.out.println(table.get(40));
+        System.out.println(table.get(15));
         System.out.println(table.get(80));
 
 
