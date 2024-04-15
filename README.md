@@ -45,6 +45,8 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Depth First Search](#depth-first-search)
   - [Connected Components](#connected-components)
 - [Hashing](#hashing)
+  - [HashTable](#hashtable)
+  - [HashNode](#hashnode) 
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -491,6 +493,22 @@ Before continuing the Hashing part, as long as we sum up our problem or aim is r
   - remove(key) - deletes the key-value pair from the HashTable.
 * The average runtime is O(1).
 * The Java Collections Framework includes the HashMap class for dealing with "key-value" pairs and the HashSet class for dealing solely with "keys".
+
+### HashNode
+
+In a HashTable, a HashNode class comprises three components:
+
+<ol type="1">
+  <li>The 'key', denoted by K, serves as a distinct identifier aiding data storage.</li>
+  <li>The 'value', represented by V, constitutes the actual data stored, determined by the key's location.</li>
+  <li>The 'next' HashNode indicates the subsequent node within the chain of hash nodes.</li>
+</ol>
+
+![hashNode](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/257b02dd-aff6-4a7c-b35e-8121fa3e12aa)
+
+![terminology](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/8132d05d-3178-44a9-b709-0ce953abbcd8)
+
+![separate](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/c48ca508-2cd4-40d5-b832-3e5600e5c1c0)
 
 > **_NOTE:_** In Java, both HashSet and Set are related to collections, which are like containers for storing multiple items. Here's an explanation:
 > * Set: Think of a set as a group of unique items. In Java, a Set is an interface that defines a collection that does not allow duplicate elements.
