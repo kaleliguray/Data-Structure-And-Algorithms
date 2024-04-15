@@ -43,6 +43,8 @@ This project is trying to show examples of the lecture on data structure and alg
     - [Adjacency List Representation](#adjacency-list-representatio)
   - [Breath First Search](#breath-first-search)
   - [Depth First Search](#depth-first-search)
+  - [Connected Components](#connected-components)
+- [Hashing](#hashing)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -437,6 +439,58 @@ DFS doesn't guarantee the shortest path, unlike BFS, but it's often more memory-
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/TV-Depth-First-Search-normal-image03.jpg" alt="Resource from techvidvan.com - Depth First Search"/>
 
 <a href="https://techvidvan.com/tutorials/depth-first-search-dfs/">Resource from techvidvan.com - Depth First Search</a>
+
+### Connected Components
+
+In data structure and graph theory, connected components refer to subsets of vertices within a graph where each vertex in the subset is connected to every other vertex in the same subset by paths, either direct or indirect. In simpler terms, a connected component is a maximal subgraph in which there is a path between every pair of vertices.
+
+For example, in an undirected graph, if there are three vertices A, B, and C, where there are connections between A and B, and between B and C, but no connection between A and C, then there are two connected components: one containing A and B, and the other containing C.
+
+<p>Connected components are essential in various graph algorithms and applications. Some common uses include:</p>
+
+<ol type="1">
+  <li>Network analysis: Identifying connected components helps in understanding the structure and connectivity of networks, such as social networks, transportation networks, or computer networks.</li>
+  <li>Graph algorithms: Algorithms like connected component labeling, which assigns labels to connected components in an image, are used in image processing and computer vision.</li>
+  <li>Cluster analysis: Connected components can represent clusters or groups of data points in clustering algorithms.</li>
+  <li>Pathfinding: In some cases, identifying connected components can simplify pathfinding algorithms by breaking down the graph into smaller, more manageable pieces.</li>
+</ol>
+
+Overall, connected components provide valuable insights into the structure and behavior of graphs, making them a fundamental concept in graph theory and data structure analysis.
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200421194558/Count-of-Connected-Components.png" alt="Resource from geeksforgeeks.org - connected components"/>
+
+<a href="https://www.geeksforgeeks.org/count-of-unique-lengths-of-connected-components-for-an-undirected-graph-using-stl/">Resource from geeksforgeeks.org - connected components</a>
+
+## Hashing
+
+Before continuing the Hashing part, as long as we sum up our problem or aim is reaching O(1) time complexity. To do it, we checked linear search, binary search, and arrays. Shortly, you can find their relative image below.
+
+![pic1](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/87394c32-09f5-4f45-b663-d205688a527a)
+
+![pic2](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/305bf702-9f45-430d-aa06-ede401a8c633)
+
+* Hashing is a method used to quickly store, retrieve, and remove information. 
+* It involves converting a key of arbitrary size into a fixed-size value using a special function known as a Hash function. 
+* Operations like sorting, retrieving, and removing data supported by hashing have an average runtime complexity of O(1).
+
+![hash](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/57a81957-5ac1-4e85-a095-64acd56e69e6)
+
+### Modular Hash Function
+
+![modular_hash_function](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/3ed3596c-4b90-4732-bdba-2fc9184d49ed)
+
+### HashTable
+
+* It's a generalized form of an array.
+* It stores data in the form of key-value pairs.
+* It utilizes a hash function to convert a key into an index.
+* Using the index, we store the key-value pair in an array.
+* The primary operations supported by the HashTable are:
+  - put(key, value) - adds a key-value pair with a unique key.
+  - get(key) - retrieves the value for the provided key.
+  - remove(key) - deletes the key-value pair from the HashTable.
+* The average runtime is O(1).
+* The Java Collections Framework includes the HashMap class for dealing with "key-value" pairs and the HashSet class for dealing solely with "keys".
 
 ## Usage & Contributing
 
