@@ -598,6 +598,15 @@ that uses hashing for fast operations like adding, removing, and checking if an 
 
 <a href="https://docs.8x8.com/8x8WebHelp/8x8-work-for-desktop/Content/workd/search-contacts.htm">Resource from docs.8x8.com - Search contacts</a>
 
+<p><b>Applications - Spell Checking</b></p>
+
+- Tries help to check and correct word spelling entered by user.
+- In case user does not know exact spelling it auto suggest the correct spelling.
+
+<img src="https://media.gcflearnfree.org/ctassets/topics/174/wd10_lesson_6.png" alt="Resource from edu.gcfglobal.org - Checking spelling and grammar"/>
+
+<a href="https://edu.gcfglobal.org/en/word2010/checking-spelling-and-grammar/1/">Resource from edu.gcfglobal.org - Checking spelling and grammar</a>
+
 ## Usage & Contributing
 
 You can clone the repository and download your local to work on it. If you want to provide more examples or if you detected any mistake on the example, please, review and correct then notify me with a commit request.
