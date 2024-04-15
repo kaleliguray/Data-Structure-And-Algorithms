@@ -62,6 +62,18 @@ public class HashTable {
     }
 
     public String get(Integer key){
+        if (key == null){
+            throw new IllegalArgumentException("Key is null !");
+        }
+        int bucket_index = getBucketIndex(key);
+        HashNode head = buckets[bucket_index];
+        while (head != null){
+            if (head.key.equals(key)){
+
+                return head.value;
+            }
+            head = head.next;
+        }
         return null;
     }
 
@@ -78,7 +90,9 @@ public class HashTable {
         table.put(25, "Tom"); // --> Leo & Tom refer to same index, that is the reason why size is 3
         table.put(40, "Harry");
         System.out.println(table.size);
-
+        System.out.println(table.get(25));
+        System.out.println(table.get(40));
+        System.out.println(table.get(80));
 
 
 
