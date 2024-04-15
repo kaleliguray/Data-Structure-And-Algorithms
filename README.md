@@ -614,8 +614,8 @@ that uses hashing for fast operations like adding, removing, and checking if an 
 * In the example, in order to insert word "dog", 3 TrieNode are used, one for each alphabet
 * A TrieNode class in Trie consist of two data members.
 <ol type="1">
-  <li>TrieNode[] children: An array which refers to other TrieNodes in Trie, also called as child nodes of TrieNode. The size of array is usually taken as 26 (if we are storing English words) </li>
-  <li>boolean isWord: A boolean value to indicate the end of the world. This value is set as true when a word is inserted completely.</li>
+  <li><b>TrieNode[] children:</b> An array which refers to other TrieNodes in Trie, also called as child nodes of TrieNode. The size of array is usually taken as 26 (if we are storing English words) </li>
+  <li><b>boolean isWord:</b> A boolean value to indicate the end of the world. This value is set as true when a word is inserted completely.</li>
 </ol>
 
 ![Screen Shot 2024-04-15 at 22 51 20 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/4ecd1132-62e1-4e7e-a90d-14a5d4ba6890)
