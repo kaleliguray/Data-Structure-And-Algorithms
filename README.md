@@ -50,6 +50,7 @@ This project is trying to show examples of the lecture on data structure and alg
 - [Interval](#interval)
   - [Overlapping Intervals](#overlapping-intervals)
 - [Trie](#trie)
+  - [TrieNode](#trienode) 
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -606,6 +607,18 @@ that uses hashing for fast operations like adding, removing, and checking if an 
 <img src="https://media.gcflearnfree.org/ctassets/topics/174/wd10_lesson_6.png" alt="Resource from edu.gcfglobal.org - Checking spelling and grammar"/>
 
 <a href="https://edu.gcfglobal.org/en/word2010/checking-spelling-and-grammar/1/">Resource from edu.gcfglobal.org - Checking spelling and grammar</a>
+
+### TrieNode
+
+* A TrieNode in a Trie represent a single alphabet of the word.
+* In the example, in order to insert word "dog", 3 TrieNode are used, one for each alphabet
+* A TrieNode class in Trie consist of two data members.
+<ol type="1">
+  <li>TrieNode[] children: An array which refers to other TrieNodes in Trie, also called as child nodes of TrieNode. The size of array is usually taken as 26 (if we are storing English words) </li>
+  <li>boolean isWord: A boolean value to indicate the end of the world. This value is set as true when a word is inserted completely.</li>
+</ol>
+
+![Screen Shot 2024-04-15 at 22 51 20 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/4ecd1132-62e1-4e7e-a90d-14a5d4ba6890)
 
 ## Usage & Contributing
 
