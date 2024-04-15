@@ -492,6 +492,15 @@ Before continuing the Hashing part, as long as we sum up our problem or aim is r
 * The average runtime is O(1).
 * The Java Collections Framework includes the HashMap class for dealing with "key-value" pairs and the HashSet class for dealing solely with "keys".
 
+> **_NOTE:_** In Java, both HashSet and Set are related to collections, which are like containers for storing multiple items. Here's an explanation:
+> * Set: Think of a set as a group of unique items. In Java, a Set is an interface that defines a collection that does not allow duplicate elements.
+So, if you have a set of numbers, it won't allow the same number to be in there twice.
+> * HashSet: Now, a HashSet is a specific type of set. It's implemented using a hash table. This means it's really good at quickly checking whether
+it contains a particular item. It's fast because it uses something called hashing to organize the elements.
+>
+>  So, the main difference is that Set is just an interface defining a collection of unique items, while HashSet is a specific implementation of that interface
+that uses hashing for fast operations like adding, removing, and checking if an item exists.
+
 ## Usage & Contributing
 
 You can clone the repository and download your local to work on it. If you want to provide more examples or if you detected any mistake on the example, please, review and correct then notify me with a commit request.
