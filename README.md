@@ -48,7 +48,8 @@ This project is trying to show examples of the lecture on data structure and alg
   - [HashTable](#hashtable)
   - [HashNode](#hashnode)
 - [Interval](#interval)
-  - [Overlapping Intervals](#overlapping-intervals) 
+  - [Overlapping Intervals](#overlapping-intervals)
+- [Trie](#trie)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -566,6 +567,36 @@ that uses hashing for fast operations like adding, removing, and checking if an 
 </ol>
 
 ![Screen Shot 2024-04-15 at 21 08 19 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/3fdc10cc-5f07-4b13-90f9-6fde6d4fcfcc)
+
+## Trie
+
+* The concept of tries is essentially derived from the term 'retrieval.
+* The fundamental aim of this data structure is to swiftly retrieve stored information.
+
+<p>A trie with 4 words :</p>
+<ol type="1">
+  <li>dog</li>
+  <li>dust</li>
+  <li>hat</li>
+  <li>home</li>
+</ol>
+
+![Screen Shot 2024-04-15 at 22 24 19 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/4294451c-71f0-4ca0-80cb-c090339d2933)
+
+<p><b>Applications - Auto Complete Words</b></p>
+
+- Autocomplete feature is implemented by Tries.
+- Many websites have used autocomplete feature, which suggest user rest of the word, while user is typing
+
+![Screen Shot 2024-04-15 at 22 27 37 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/f568e0b9-1772-4d3e-af2a-0e0f786ac714)
+
+<p><b>Applications - Search Contacts In Phone</b></p>
+
+- Searching a person contact number in contact list is efficently implemented by Trie. As soon as user enters letters the application auto suggest the name of the person.
+
+<img src="https://docs.8x8.com/8x8WebHelp/8x8-work-for-desktop/Content/Resources/Images/VOD_5-0/Contacts_CallQ.png" alt="Resource from docs.8x8.com - Search contacts"/>
+
+<a href="https://docs.8x8.com/8x8WebHelp/8x8-work-for-desktop/Content/workd/search-contacts.htm">Resource from docs.8x8.com - Search contacts</a>
 
 ## Usage & Contributing
 
