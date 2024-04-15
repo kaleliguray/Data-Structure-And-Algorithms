@@ -46,7 +46,8 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Connected Components](#connected-components)
 - [Hashing](#hashing)
   - [HashTable](#hashtable)
-  - [HashNode](#hashnode) 
+  - [HashNode](#hashnode)
+- [Interval](#interval)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -518,6 +519,14 @@ it contains a particular item. It's fast because it uses something called hashin
 >
 >  So, the main difference is that Set is just an interface defining a collection of unique items, while HashSet is a specific implementation of that interface
 that uses hashing for fast operations like adding, removing, and checking if an item exists.
+
+## Interval
+
+* An interval, such as (5, 8), denotes a range delineated by two numbers. 
+* These numbers are referred to as the start and end points.
+* For instance, intervals are commonly used to denote time spans in tasks or jobs.
+
+![interval](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/e512e614-8834-4065-91ad-0de593fbd41f)
 
 ## Usage & Contributing
 
