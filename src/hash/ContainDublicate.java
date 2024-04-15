@@ -21,7 +21,7 @@ public class ContainDublicate {
     public static void main(String[] args) {
 
         int[] arr = {1, 7, 3, 4, 1};
-        
+
        boolean dublicate = contains_dublicate(arr);
 
         System.out.println("Whether does it involve a duplicate value or not?: " + dublicate);
