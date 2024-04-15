@@ -558,6 +558,13 @@ that uses hashing for fast operations like adding, removing, and checking if an 
 
 ### Overlapping Interval Calculation
 
+<ol type="1">
+  <li>Sort the intervals based on the start time. (a.start <= b.start)</li>
+  <li>c.start = a.start</li>
+  <li>c.end = Math.max(a.end, b.end)</li>
+  <li>Repeat for all overlapping intervals</li>
+</ol>
+
 ![Screen Shot 2024-04-15 at 21 08 19 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/3fdc10cc-5f07-4b13-90f9-6fde6d4fcfcc)
 
 ## Usage & Contributing
