@@ -48,6 +48,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [HashTable](#hashtable)
   - [HashNode](#hashnode)
 - [Interval](#interval)
+  - [Overlapping Intervals](#overlapping-intervals) 
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -527,6 +528,33 @@ that uses hashing for fast operations like adding, removing, and checking if an 
 * For instance, intervals are commonly used to denote time spans in tasks or jobs.
 
 ![interval](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/e512e614-8834-4065-91ad-0de593fbd41f)
+
+### Overlapping Intervals
+
+* Relationship between two intervals a and b
+1. <p> a and b do not overlap</p>
+
+![Screen Shot 2024-04-15 at 20 32 46 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/7b8439ab-2c8a-4ff3-8a11-5a3145b80d00)
+
+2. <p> a and b overlap, b ends after a</p>
+
+![Screen Shot 2024-04-15 at 20 33 04 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/5916a15b-7258-4040-908b-8e9c1f5cc700)
+
+3. <p> a completely overlaps b</p>
+
+![Screen Shot 2024-04-15 at 20 33 25 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/fe1a4f79-6ed6-4eb4-8d93-b62effc59d88)
+
+4. <p> a and b overlap, a ends after b</p>
+
+![Screen Shot 2024-04-15 at 20 33 55 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/9df7e4bf-8386-4760-9e46-009267ce1ca6)
+
+5. <p> b completely overlaps a</p>
+
+![Screen Shot 2024-04-15 at 20 35 35 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/de17e61a-21c7-4007-b368-08ad78ccbd96)
+
+6. <p> b and a do not overlap</p>
+
+![Screen Shot 2024-04-15 at 20 35 55 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/3202ce28-6d86-49e5-b3e9-6e22f1626ee2)
 
 ## Usage & Contributing
 
