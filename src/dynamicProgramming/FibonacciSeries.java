@@ -40,7 +40,7 @@ public class FibonacciSeries {
 
     /**
      * We calculate the fibonacci series by using the Top-Down Approach in this method
-     * @param memo
+     * // @param memo
      * @param n
      * @return
      */
@@ -48,7 +48,7 @@ public class FibonacciSeries {
         int[] memo = new int[n+1];
         if (memo[n] == 0){
             if (n < 2){
-                memo[n] = n;
+                memo[n] = n; // this calculation is for 0 and 1
             } else {
                 int left = fib3(n-1); // fib3(memo, n-1)
                 int right = fib3(n-2); // fib2(memo, n-2)
