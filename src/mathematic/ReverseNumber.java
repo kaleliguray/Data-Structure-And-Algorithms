@@ -25,6 +25,7 @@ public class ReverseNumber {
         return isNegative ? reverse * -1 : reverse;
     }
 
+
     public static void main(String[] args) {
 
         int number = -1234;
