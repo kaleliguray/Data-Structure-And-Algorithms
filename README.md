@@ -631,7 +631,9 @@ The Dynamic Programming is a technique in which a complex problem is solved by :
   <li>If similar sub-problems arise again, utilize the previously solved solutions to avoid redundant problem-solving.</li>
   <li>Ultimately, assemble the solutions of the smaller problems to construct the solution to the complex problem.</li>
 </ol>
-
+<br>
+<p>It is mainly an optimization over <b>recursion</b>.</p><br>
+* <b>Dynamic Programming = Recursion + Memomization</b>
 
 ## Usage & Contributing
 
