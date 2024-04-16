@@ -52,7 +52,11 @@ This project is trying to show examples of the lecture on data structure and alg
 - [Trie](#trie)
   - [TrieNode](#trienode)
 - [Dynamic Programming](#dynamic-programming)
-  - [Fibonacci Series](#fibonacci-series) 
+  - [Fibonacci Series](#fibonacci-series)
+  - [Optimal Substructure](#obtimal-substructure)
+  - [Overlapping Subproblems](#overlappin-subproblems)
+  - [Bottom Up Approach](#buttom-up-approach)
+  - [Top Down Approach](#top-down-approach)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -649,6 +653,36 @@ The Dynamic Programming is a technique in which a complex problem is solved by :
       <li>fib(n) = fib(n-1) + fib(n-2)</li>
     </ul>
 
+### Optimal Substructure
+
+<p>A given problem has Optimal Substructure Property if optimal solution of the given problem can be obtained by using the optimal solution of its sub-problems.</p>
+
+  * Example: fib(n) =  fib(n-1) + fib(n-2)<br>
+
+### Overlapping Subproblems
+
+<p>A given problem has Overlapping Subproblems Property if solution of the given problem is obtained by solving same subproblems multiple times</p>
+
+  * Example: fib(n) =  fib(n-1) + fib(n-2)<br>
+
+### Bottom-Up Approach
+
+<ul>
+  <li>We try to solve smaller sub-problems first, use their solution to build on and arrive at the solutions to bigger sub-problems</li>
+  <li>It is also called <b>Tabulation Method</b>.</li>
+  <li>The solution is build in a tabular form by using solution of smaller sub-problems iteratively and generating solutions to bigger sub-problems</li>
+</ul> 
+
+### Top Down Approach
+
+<ul>
+  <li>It is also called <b>Memoization</b>.</li>
+  <li>We break the large proble into multiple sub-problems</li>
+  <li>Each of the sub-problems are solved and solution are remembered.</li>
+  <li>If the sub-problem is solved already, reuse the answer</li>
+  <li>Else solve the sub-problem and store the result</li>
+  <li>Thus, it memorizes the solution of the sub-problem to avoid recomputing the value if sub-problem is encountered again</li>
+</ul> 
 
 ## Usage & Contributing
 
