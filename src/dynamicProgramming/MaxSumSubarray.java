@@ -1,5 +1,10 @@
 package src.dynamicProgramming;
 
+/**
+ * @author dinesh-varyani
+ * @see {@linktourl https://github.com/dinesh-varyani}
+ */
+
 public class MaxSumSubarray {
 
     public static int max_sum_sub_array(int[] arr){
