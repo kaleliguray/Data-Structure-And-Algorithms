@@ -57,6 +57,7 @@ This project is trying to show examples of the lecture on data structure and alg
   - [Overlapping Subproblems](#overlappin-subproblems)
   - [Bottom Up Approach](#buttom-up-approach)
   - [Top Down Approach](#top-down-approach)
+  - [Maximum Sum Subarray](#maximum-sum-subarray)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -683,6 +684,35 @@ The Dynamic Programming is a technique in which a complex problem is solved by :
   <li>Else solve the sub-problem and store the result</li>
   <li>Thus, it memorizes the solution of the sub-problem to avoid recomputing the value if sub-problem is encountered again</li>
 </ul> 
+
+### Maximum Sum Subarray - Kadane's Algorithm
+
+Imagine you have an array of numbers, like [1, -3, 4, -2, 7, -5]. The Maximum Sum Subarray problem is about finding the contiguous subarray (meaning the elements are next to each other) that gives the highest sum.
+
+Here's how Kadane's Algorithm works:
+
+<ol type="1">
+  <li>Start with the first number:</li>
+    * You start by looking at the first number, which is 1. Since it's the only number so far, it's both the maximum sum so far (max_so_far) and the maximum sum of a subarray ending at the first position (max_ending_here).
+  <li>Move to the next number:</li>  
+    * You move to the next number, which is -3. Now, you have two choices: either start a new subarray from this number (-3) or add it to the previous subarray (1) to extend it. Since adding -3 to 1 gives you -2, which is greater than just -3, you extend the subarray.
+  <li>Keep extending or start anew:</li>  
+    * Now you're at 4. You can either start a new subarray from 4 or add it to the previous subarray (-2) to extend it. Since adding 4 to -2 gives you 2, which is greater than just 4, you extend the subarray.
+  <li>Keep track of the maximum:</li>  
+    * You repeat this process for each number in the array, always choosing the option that gives you the highest sum. At each step, you keep track of the highest sum you've seen so far (max_so_far). That's the answer to the problem!
+</ol>
+<br>
+<p>So, Kadane's Algorithm dynamically builds up the maximum sum subarray as it progresses through the array, ensuring it always considers the best option at each step. It's like walking through a maze, always choosing the path that leads to the most treasure!</p>
+
+<ul>
+  <p>Kadane's Algorithm for the Maximum Sum Subarray problem is valuable for a few reasons:</p>
+  <li>Efficiency: This algorithm has a time complexity of O(n), where n is the number of elements in the array. This means it can efficiently handle large arrays of numbers, making it suitable for real-world applications where performance matters.</li>
+  <li>Simplicity: Despite its efficiency, Kadane's Algorithm is relatively simple to implement and understand. It involves only a few lines of code and relies on a straightforward logic, making it accessible to programmers at various skill levels.</li>
+  <li>Versatility: The Maximum Sum Subarray problem arises in various contexts across different domains, including computer science, data analysis, and finance. By efficiently solving this problem, Kadane's Algorithm can be applied to a wide range of scenarios, such as optimizing resource allocation, analyzing financial data, and processing signals in digital signal processing.</li>
+  <li>Optimization: Identifying the maximum sum subarray can provide valuable insights into the underlying data. For example, in financial analysis, finding the maximum profit or loss within a given period can inform investment decisions. Similarly, in signal processing, detecting the peak amplitude or energy level can aid in identifying important features in the signal.</li>
+</ul>
+
+<p>Overall, Kadane's Algorithm is a powerful tool for efficiently solving the Maximum Sum Subarray problem, making it indispensable in various practical applications where analyzing contiguous sequences of data is essential.</p>
 
 ## Usage & Contributing
 
