@@ -50,7 +50,8 @@ This project is trying to show examples of the lecture on data structure and alg
 - [Interval](#interval)
   - [Overlapping Intervals](#overlapping-intervals)
 - [Trie](#trie)
-  - [TrieNode](#trienode) 
+  - [TrieNode](#trienode)
+- [Dynamic Programming](#dynamic-programming)
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -619,6 +620,18 @@ that uses hashing for fast operations like adding, removing, and checking if an 
 </ol>
 
 ![Screen Shot 2024-04-15 at 22 51 20 PM](https://github.com/kaleliguray/Data-Structure-And-Algorithms/assets/55591718/4ecd1132-62e1-4e7e-a90d-14a5d4ba6890)
+
+## Dynamic Programming
+
+The Dynamic Programming is a technique in which a complex problem is solved by :
+
+<ol>
+  <li>Divide the complex problem into smaller, more manageable sub-problems.</li>
+  <li>Solve each of these smaller sub-problems and keep the solutions for later use.</li>
+  <li>If similar sub-problems arise again, utilize the previously solved solutions to avoid redundant problem-solving.</li>
+  <li>Ultimately, assemble the solutions of the smaller problems to construct the solution to the complex problem.</li>
+</ol>
+
 
 ## Usage & Contributing
 
