@@ -52,6 +52,7 @@ This project is trying to show examples of the lecture on data structure and alg
 - [Trie](#trie)
   - [TrieNode](#trienode)
 - [Dynamic Programming](#dynamic-programming)
+  - [Fibonacci Series](#fibonacci-series) 
 - [Usage & Contributing](#usage--contributing)
 - [License](#license)
 - [Resources](#resources)
@@ -631,6 +632,22 @@ The Dynamic Programming is a technique in which a complex problem is solved by :
   <li>If similar sub-problems arise again, utilize the previously solved solutions to avoid redundant problem-solving.</li>
   <li>Ultimately, assemble the solutions of the smaller problems to construct the solution to the complex problem.</li>
 </ol>
+<br>
+<p>It is mainly an optimization over <b>recursion</b>.</p><br>
+  
+  * <b>Dynamic Programming = Recursion + Memomization</b>
+
+### Fibonacci Series
+
+<p>It is a series of numbers in which first two numbers are 0 and 1. After that each number is the sum of the two preceding numbers.</p>
+
+  * Example: 0, 1, 1, 2, 3, 5, 8, 13, 21, ... <br>
+   <br> <b>Formulation</b>
+    <ul>
+      <li>fib(0) = 0</li>
+      <li>fib(1) = 1</li>
+      <li>fib(n) = fib(n-1) + fib(n-2)</li>
+    </ul>
 
 
 ## Usage & Contributing
