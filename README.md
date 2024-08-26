@@ -155,6 +155,10 @@ You should know basic coding in Java language.
 
 These rules help simplify the expression and provide a clearer understanding of the algorithm's time complexity in terms of its growth concerning the input size.
 
+<img src="https://i.sstatic.net/WcBRI.png" alt="https://stackoverflow.com/questions/487258 - BigOh complexity can be visualized with this graph"/>
+
+<a href="https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation">www.stackoverflow.com - BigOh complexity can be visualized with this graph</a>
+
 ## Floyd Cycle Detection Algorithm
 
 You can find the details and the coding version of Floyd's Cycle Detection Algorithm under the src/linked_list_with_node package.
