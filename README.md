@@ -125,6 +125,8 @@ You should know basic coding in Java language.
 * It provides a more balanced view by determining the average amount of time an algorithm may take to complete.
 * This notation is helpful for a more comprehensive analysis of an algorithm's efficiency.
 
+![Screen Shot 2024-08-26 at 08 45 30 AM](https://github.com/user-attachments/assets/8703e4b2-a312-41b3-9c0b-eb737a7f84be)
+
 ## Rules To Calculate Big O Notation
 - Single Processor: The analysis assumes a single processor for computation.
 - Sequential Execution: The algorithm performs sequential execution of statements.
