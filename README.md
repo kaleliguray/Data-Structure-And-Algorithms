@@ -103,6 +103,7 @@ You should know basic coding in Java language.
 
 ### Asymptotic Notations
 - Asymptotic notations are mathematical tools employed to describe the running time of an algorithm in relation to the input size. These notations provide a concise and abstract way to express how the algorithm's efficiency scales as the input size grows, allowing for a more generalized analysis of its performance.
+- n-notation analyzes how an algorithm will scale when more and more input data is fed into it, not how long it will take to execute.
 
 <ol type="1">
   <li>Best Case - Omega Notation (Ω) </li>
